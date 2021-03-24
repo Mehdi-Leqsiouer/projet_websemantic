@@ -1,0 +1,7 @@
+SELECT *
+WHERE {
+    ?station vel:name ?name ;
+             vel:latitude ?lat ;
+             vel:longitude ?long ;
+             vel:is_installed "OUI" ;
+} LIMIT 50

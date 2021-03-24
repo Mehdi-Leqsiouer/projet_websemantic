@@ -1,0 +1,10 @@
+SELECT *
+WHERE {
+    ?station vel:name ?name ;
+             vel:latitude ?lat ;
+             vel:longitude ?long ;
+             vel:is_installed ?installed ; 
+             vel:numbikesavailable ?numbikes ;
+             vel:ebike ?ebikenum .
+    FILTER(?ebikenum < 1) .
+}

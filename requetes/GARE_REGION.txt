@@ -1,0 +1,7 @@
+SELECT *
+WHERE {
+    ?gare tgv:nom_reg "param" .
+    ?gare tgv:nom_reg ?nom_reg .
+    ?gare tgv:latitude ?lat .
+    ?gare tgv:longitude ?long
+}

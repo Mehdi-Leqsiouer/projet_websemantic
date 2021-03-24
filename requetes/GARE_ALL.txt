@@ -1,0 +1,6 @@
+SELECT *
+WHERE {
+    ?gare tgv:name ?name ;
+             tgv:latitude ?lat ;
+             tgv:longitude ?long ;
+}
