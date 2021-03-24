@@ -1,0 +1,2023 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:tgv="http://www.owl-ontologies.com/unnamed.owl#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/">
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/0">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Aix-en-Provence TGV</tgv:name>
+	<tgv:insee_reg>84</tgv:insee_reg>
+	<tgv:nom_reg>Auvergne-Rhône-Alpes</tgv:nom_reg>
+	<tgv:insee_dep>1</tgv:insee_dep>
+	<tgv:nom_dep>Ain</tgv:nom_dep>
+	<tgv:latitude>46.097</tgv:latitude>
+	<tgv:longitude>4.847</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/1">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Bellegarde</tgv:name>
+	<tgv:insee_reg>84</tgv:insee_reg>
+	<tgv:nom_reg>Auvergne-Rhône-Alpes</tgv:nom_reg>
+	<tgv:insee_dep>1</tgv:insee_dep>
+	<tgv:nom_dep>Ain</tgv:nom_dep>
+	<tgv:latitude>46.114</tgv:latitude>
+	<tgv:longitude>5.824</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/2">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Bourg-en-Bresse</tgv:name>
+	<tgv:insee_reg>84</tgv:insee_reg>
+	<tgv:nom_reg>Auvergne-Rhône-Alpes</tgv:nom_reg>
+	<tgv:insee_dep>1</tgv:insee_dep>
+	<tgv:nom_dep>Ain</tgv:nom_dep>
+	<tgv:latitude>46.196</tgv:latitude>
+	<tgv:longitude>5.275</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/3">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Cluses</tgv:name>
+	<tgv:insee_reg>84</tgv:insee_reg>
+	<tgv:nom_reg>Auvergne-Rhône-Alpes</tgv:nom_reg>
+	<tgv:insee_dep>1</tgv:insee_dep>
+	<tgv:nom_dep>Ain</tgv:nom_dep>
+	<tgv:latitude>46.171</tgv:latitude>
+	<tgv:longitude>5.577</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/4">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Nurieux</tgv:name>
+	<tgv:insee_reg>84</tgv:insee_reg>
+	<tgv:nom_reg>Auvergne-Rhône-Alpes</tgv:nom_reg>
+	<tgv:insee_dep>1</tgv:insee_dep>
+	<tgv:nom_dep>Ain</tgv:nom_dep>
+	<tgv:latitude>46.181</tgv:latitude>
+	<tgv:longitude>5.521</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/5">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Antibes</tgv:name>
+	<tgv:insee_reg>93</tgv:insee_reg>
+	<tgv:nom_reg>Provence-Alpes-Côte d'Azur</tgv:nom_reg>
+	<tgv:insee_dep>6</tgv:insee_dep>
+	<tgv:nom_dep>Alpes-Maritimes</tgv:nom_dep>
+	<tgv:latitude>43.584</tgv:latitude>
+	<tgv:longitude>7.108</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/6">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Cannes</tgv:name>
+	<tgv:insee_reg>93</tgv:insee_reg>
+	<tgv:nom_reg>Provence-Alpes-Côte d'Azur</tgv:nom_reg>
+	<tgv:insee_dep>6</tgv:insee_dep>
+	<tgv:nom_dep>Alpes-Maritimes</tgv:nom_dep>
+	<tgv:latitude>43.653</tgv:latitude>
+	<tgv:longitude>7.146</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/7">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Menton</tgv:name>
+	<tgv:insee_reg>93</tgv:insee_reg>
+	<tgv:nom_reg>Provence-Alpes-Côte d'Azur</tgv:nom_reg>
+	<tgv:insee_dep>6</tgv:insee_dep>
+	<tgv:nom_dep>Alpes-Maritimes</tgv:nom_dep>
+	<tgv:latitude>43.774</tgv:latitude>
+	<tgv:longitude>7.489</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/8">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Nice-Ville</tgv:name>
+	<tgv:insee_reg>93</tgv:insee_reg>
+	<tgv:nom_reg>Provence-Alpes-Côte d'Azur</tgv:nom_reg>
+	<tgv:insee_dep>6</tgv:insee_dep>
+	<tgv:nom_dep>Alpes-Maritimes</tgv:nom_dep>
+	<tgv:latitude>43.697</tgv:latitude>
+	<tgv:longitude>7.272</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/9">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Charleville-Mézières</tgv:name>
+	<tgv:insee_reg>44</tgv:insee_reg>
+	<tgv:nom_reg>Grand Est</tgv:nom_reg>
+	<tgv:insee_dep>8</tgv:insee_dep>
+	<tgv:nom_dep>Ardennes</tgv:nom_dep>
+	<tgv:latitude>49.771</tgv:latitude>
+	<tgv:longitude>4.72</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/10">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Rethel</tgv:name>
+	<tgv:insee_reg>44</tgv:insee_reg>
+	<tgv:nom_reg>Grand Est</tgv:nom_reg>
+	<tgv:insee_dep>8</tgv:insee_dep>
+	<tgv:nom_dep>Ardennes</tgv:nom_dep>
+	<tgv:latitude>49.5</tgv:latitude>
+	<tgv:longitude>4.402</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/11">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Sedan</tgv:name>
+	<tgv:insee_reg>44</tgv:insee_reg>
+	<tgv:nom_reg>Grand Est</tgv:nom_reg>
+	<tgv:insee_dep>8</tgv:insee_dep>
+	<tgv:nom_dep>Ardennes</tgv:nom_dep>
+	<tgv:latitude>49.705</tgv:latitude>
+	<tgv:longitude>4.943</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/12">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Dijon-Ville</tgv:name>
+	<tgv:insee_reg>44</tgv:insee_reg>
+	<tgv:nom_reg>Grand Est</tgv:nom_reg>
+	<tgv:insee_dep>10</tgv:insee_dep>
+	<tgv:nom_dep>Aube</tgv:nom_dep>
+	<tgv:latitude>48.119</tgv:latitude>
+	<tgv:longitude>4.789</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/13">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Carcassonne</tgv:name>
+	<tgv:insee_reg>76</tgv:insee_reg>
+	<tgv:nom_reg>Occitanie</tgv:nom_reg>
+	<tgv:insee_dep>11</tgv:insee_dep>
+	<tgv:nom_dep>Aude</tgv:nom_dep>
+	<tgv:latitude>43.179</tgv:latitude>
+	<tgv:longitude>2.405</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/14">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Narbonne</tgv:name>
+	<tgv:insee_reg>76</tgv:insee_reg>
+	<tgv:nom_reg>Occitanie</tgv:nom_reg>
+	<tgv:insee_dep>11</tgv:insee_dep>
+	<tgv:nom_dep>Aude</tgv:nom_dep>
+	<tgv:latitude>43.182</tgv:latitude>
+	<tgv:longitude>3.026</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/15">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Arles</tgv:name>
+	<tgv:insee_reg>93</tgv:insee_reg>
+	<tgv:nom_reg>Provence-Alpes-Côte d'Azur</tgv:nom_reg>
+	<tgv:insee_dep>13</tgv:insee_dep>
+	<tgv:nom_dep>Bouches-du-Rhône</tgv:nom_dep>
+	<tgv:latitude>43.641</tgv:latitude>
+	<tgv:longitude>5.071</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/16">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Avignon TGV</tgv:name>
+	<tgv:insee_reg>93</tgv:insee_reg>
+	<tgv:nom_reg>Provence-Alpes-Côte d'Azur</tgv:nom_reg>
+	<tgv:insee_dep>13</tgv:insee_dep>
+	<tgv:nom_dep>Bouches-du-Rhône</tgv:nom_dep>
+	<tgv:latitude>43.657</tgv:latitude>
+	<tgv:longitude>5.095</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/17">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Marseille-Saint-Charles</tgv:name>
+	<tgv:insee_reg>93</tgv:insee_reg>
+	<tgv:nom_reg>Provence-Alpes-Côte d'Azur</tgv:nom_reg>
+	<tgv:insee_dep>13</tgv:insee_dep>
+	<tgv:nom_dep>Bouches-du-Rhône</tgv:nom_dep>
+	<tgv:latitude>43.255</tgv:latitude>
+	<tgv:longitude>5.432</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/18">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Miramas</tgv:name>
+	<tgv:insee_reg>93</tgv:insee_reg>
+	<tgv:nom_reg>Provence-Alpes-Côte d'Azur</tgv:nom_reg>
+	<tgv:insee_dep>13</tgv:insee_dep>
+	<tgv:nom_dep>Bouches-du-Rhône</tgv:nom_dep>
+	<tgv:latitude>43.643</tgv:latitude>
+	<tgv:longitude>5.021</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/19">
+	<tgv:latitude>45.655</tgv:latitude>
+	<tgv:nom_dep>Charente</tgv:nom_dep>
+	<tgv:name>Angoulême</tgv:name>
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:insee_reg>75</tgv:insee_reg>
+	<tgv:nom_reg>Nouvelle-Aquitaine</tgv:nom_reg>
+	<tgv:insee_dep>16</tgv:insee_dep>
+	<tgv:longitude>0.151</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/20">
+	<tgv:insee_reg>75</tgv:insee_reg>
+	<tgv:name>Champagne-Ardenne TGV</tgv:name>
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:nom_reg>Nouvelle-Aquitaine</tgv:nom_reg>
+	<tgv:insee_dep>16</tgv:insee_dep>
+	<tgv:nom_dep>Charente</tgv:nom_dep>
+	<tgv:latitude>45.62</tgv:latitude>
+	<tgv:longitude>-0.222</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/21">
+	<tgv:nom_reg>Nouvelle-Aquitaine</tgv:nom_reg>
+	<tgv:name>La Rochelle-Ville</tgv:name>
+	<tgv:insee_reg>75</tgv:insee_reg>
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:insee_dep>17</tgv:insee_dep>
+	<tgv:nom_dep>Charente-Maritime</tgv:nom_dep>
+	<tgv:latitude>46.158</tgv:latitude>
+	<tgv:longitude>-1.154</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/22">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Rouen-Rive-Droite</tgv:name>
+	<tgv:insee_reg>75</tgv:insee_reg>
+	<tgv:nom_reg>Nouvelle-Aquitaine</tgv:nom_reg>
+	<tgv:insee_dep>17</tgv:insee_dep>
+	<tgv:nom_dep>Charente-Maritime</tgv:nom_dep>
+	<tgv:latitude>46.318</tgv:latitude>
+	<tgv:longitude>-0.973</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/23">
+	<tgv:insee_dep>17</tgv:insee_dep>
+	<tgv:latitude>46.114</tgv:latitude>
+	<tgv:nom_dep>Charente-Maritime</tgv:nom_dep>
+	<tgv:insee_reg>75</tgv:insee_reg>
+	<tgv:nom_reg>Nouvelle-Aquitaine</tgv:nom_reg>
+	<tgv:name>Surgères</tgv:name>
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:longitude>-0.741</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/24">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Beaune</tgv:name>
+	<tgv:insee_reg>27</tgv:insee_reg>
+	<tgv:nom_reg>Bourgogne-Franche-Comté</tgv:nom_reg>
+	<tgv:insee_dep>21</tgv:insee_dep>
+	<tgv:nom_dep>Côte-d'Or</tgv:nom_dep>
+	<tgv:latitude>47.104</tgv:latitude>
+	<tgv:longitude>4.67</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/25">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Montbard</tgv:name>
+	<tgv:insee_reg>27</tgv:insee_reg>
+	<tgv:nom_reg>Bourgogne-Franche-Comté</tgv:nom_reg>
+	<tgv:insee_dep>21</tgv:insee_dep>
+	<tgv:nom_dep>Côte-d'Or</tgv:nom_dep>
+	<tgv:latitude>47.837</tgv:latitude>
+	<tgv:longitude>4.364</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/26">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Guingamp</tgv:name>
+	<tgv:insee_reg>53</tgv:insee_reg>
+	<tgv:nom_reg>Bretagne</tgv:nom_reg>
+	<tgv:insee_dep>22</tgv:insee_dep>
+	<tgv:nom_dep>Côtes-d'Armor</tgv:nom_dep>
+	<tgv:latitude>48.563</tgv:latitude>
+	<tgv:longitude>-3.155</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/27">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Lamballe</tgv:name>
+	<tgv:insee_reg>53</tgv:insee_reg>
+	<tgv:nom_reg>Bretagne</tgv:nom_reg>
+	<tgv:insee_dep>22</tgv:insee_dep>
+	<tgv:nom_dep>Côtes-d'Armor</tgv:nom_dep>
+	<tgv:latitude>48.439</tgv:latitude>
+	<tgv:longitude>-2.538</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/28">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Lannion</tgv:name>
+	<tgv:insee_reg>53</tgv:insee_reg>
+	<tgv:nom_reg>Bretagne</tgv:nom_reg>
+	<tgv:insee_dep>22</tgv:insee_dep>
+	<tgv:nom_dep>Côtes-d'Armor</tgv:nom_dep>
+	<tgv:latitude>48.744</tgv:latitude>
+	<tgv:longitude>-3.472</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/29">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Mâcon-Ville</tgv:name>
+	<tgv:insee_reg>53</tgv:insee_reg>
+	<tgv:nom_reg>Bretagne</tgv:nom_reg>
+	<tgv:insee_dep>22</tgv:insee_dep>
+	<tgv:nom_dep>Côtes-d'Armor</tgv:nom_dep>
+	<tgv:latitude>48.581</tgv:latitude>
+	<tgv:longitude>-2.197</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/30">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Saint-Brieuc</tgv:name>
+	<tgv:insee_reg>53</tgv:insee_reg>
+	<tgv:nom_reg>Bretagne</tgv:nom_reg>
+	<tgv:insee_dep>22</tgv:insee_dep>
+	<tgv:nom_dep>Côtes-d'Armor</tgv:nom_dep>
+	<tgv:latitude>48.503</tgv:latitude>
+	<tgv:longitude>-2.763</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/31">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Besançon-Viotte</tgv:name>
+	<tgv:insee_reg>27</tgv:insee_reg>
+	<tgv:nom_reg>Bourgogne-Franche-Comté</tgv:nom_reg>
+	<tgv:insee_dep>25</tgv:insee_dep>
+	<tgv:nom_dep>Doubs</tgv:nom_dep>
+	<tgv:latitude>47.248</tgv:latitude>
+	<tgv:longitude>6.026</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/32">
+	<tgv:longitude>6.149</tgv:longitude>
+	<tgv:latitude>46.856</tgv:latitude>
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Frasne</tgv:name>
+	<tgv:insee_reg>27</tgv:insee_reg>
+	<tgv:nom_reg>Bourgogne-Franche-Comté</tgv:nom_reg>
+	<tgv:insee_dep>25</tgv:insee_dep>
+	<tgv:nom_dep>Doubs</tgv:nom_dep>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/33">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Montélimar</tgv:name>
+	<tgv:insee_reg>84</tgv:insee_reg>
+	<tgv:nom_reg>Auvergne-Rhône-Alpes</tgv:nom_reg>
+	<tgv:insee_dep>26</tgv:insee_dep>
+	<tgv:nom_dep>Drôme</tgv:nom_dep>
+	<tgv:latitude>44.546</tgv:latitude>
+	<tgv:longitude>4.744</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/34">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Valence TGV</tgv:name>
+	<tgv:nom_reg>Auvergne-Rhône-Alpes</tgv:nom_reg>
+	<tgv:insee_reg>84</tgv:insee_reg>
+	<tgv:insee_dep>26</tgv:insee_dep>
+	<tgv:nom_dep>Drôme</tgv:nom_dep>
+	<tgv:latitude>45.065</tgv:latitude>
+	<tgv:longitude>4.891</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/35">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Valence-Ville</tgv:name>
+	<tgv:insee_reg>84</tgv:insee_reg>
+	<tgv:nom_reg>Auvergne-Rhône-Alpes</tgv:nom_reg>
+	<tgv:insee_dep>26</tgv:insee_dep>
+	<tgv:nom_dep>Drôme</tgv:nom_dep>
+	<tgv:latitude>44.933</tgv:latitude>
+	<tgv:longitude>4.891</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/36">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Brest</tgv:name>
+	<tgv:insee_reg>53</tgv:insee_reg>
+	<tgv:nom_reg>Bretagne</tgv:nom_reg>
+	<tgv:insee_dep>29</tgv:insee_dep>
+	<tgv:nom_dep>Finistère</tgv:nom_dep>
+	<tgv:latitude>48.391</tgv:latitude>
+	<tgv:longitude>-4.502</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/37">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Landerneau</tgv:name>
+	<tgv:insee_reg>53</tgv:insee_reg>
+	<tgv:nom_reg>Bretagne</tgv:nom_reg>
+	<tgv:insee_dep>29</tgv:insee_dep>
+	<tgv:nom_dep>Finistère</tgv:nom_dep>
+	<tgv:latitude>48.45</tgv:latitude>
+	<tgv:longitude>-4.253</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/38">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Quimper</tgv:name>
+	<tgv:insee_reg>53</tgv:insee_reg>
+	<tgv:nom_reg>Bretagne</tgv:nom_reg>
+	<tgv:insee_dep>29</tgv:insee_dep>
+	<tgv:nom_dep>Finistère</tgv:nom_dep>
+	<tgv:latitude>48.014</tgv:latitude>
+	<tgv:longitude>-4.094</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/39">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Quimperlé</tgv:name>
+	<tgv:insee_reg>53</tgv:insee_reg>
+	<tgv:nom_reg>Bretagne</tgv:nom_reg>
+	<tgv:insee_dep>29</tgv:insee_dep>
+	<tgv:nom_dep>Finistère</tgv:nom_dep>
+	<tgv:latitude>47.884</tgv:latitude>
+	<tgv:longitude>-3.548</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/40">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Rosporden</tgv:name>
+	<tgv:insee_reg>53</tgv:insee_reg>
+	<tgv:nom_reg>Bretagne</tgv:nom_reg>
+	<tgv:insee_dep>29</tgv:insee_dep>
+	<tgv:nom_dep>Finistère</tgv:nom_dep>
+	<tgv:latitude>47.989</tgv:latitude>
+	<tgv:longitude>-3.791</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/41">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Morlaix</tgv:name>
+	<tgv:insee_reg>53</tgv:insee_reg>
+	<tgv:nom_reg>Bretagne</tgv:nom_reg>
+	<tgv:insee_dep>29</tgv:insee_dep>
+	<tgv:nom_dep>Finistère</tgv:nom_dep>
+	<tgv:latitude>48.579</tgv:latitude>
+	<tgv:longitude>-3.833</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/42">
+	<tgv:insee_reg>76</tgv:insee_reg>
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Nîmes</tgv:name>
+	<tgv:nom_reg>Occitanie</tgv:nom_reg>
+	<tgv:insee_dep>30</tgv:insee_dep>
+	<tgv:nom_dep>Gard</tgv:nom_dep>
+	<tgv:latitude>43.832</tgv:latitude>
+	<tgv:longitude>4.386</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/43">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Nîmes-Pont-du-Gard</tgv:name>
+	<tgv:insee_reg>76</tgv:insee_reg>
+	<tgv:nom_reg>Occitanie</tgv:nom_reg>
+	<tgv:insee_dep>30</tgv:insee_dep>
+	<tgv:nom_dep>Gard</tgv:nom_dep>
+	<tgv:latitude>43.851</tgv:latitude>
+	<tgv:longitude>4.37</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/44">
+	<tgv:longitude>1.484</tgv:longitude>
+	<tgv:latitude>43.583</tgv:latitude>
+	<tgv:insee_dep>31</tgv:insee_dep>
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Meuse TGV</tgv:name>
+	<tgv:insee_reg>76</tgv:insee_reg>
+	<tgv:nom_reg>Occitanie</tgv:nom_reg>
+	<tgv:nom_dep>Haute-Garonne</tgv:nom_dep>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/45">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Toulouse-Matabiau</tgv:name>
+	<tgv:insee_reg>76</tgv:insee_reg>
+	<tgv:nom_reg>Occitanie</tgv:nom_reg>
+	<tgv:insee_dep>31</tgv:insee_dep>
+	<tgv:nom_dep>Haute-Garonne</tgv:nom_dep>
+	<tgv:latitude>43.61</tgv:latitude>
+	<tgv:longitude>1.447</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/46">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Arcachon</tgv:name>
+	<tgv:insee_reg>75</tgv:insee_reg>
+	<tgv:nom_reg>Nouvelle-Aquitaine</tgv:nom_reg>
+	<tgv:insee_dep>33</tgv:insee_dep>
+	<tgv:nom_dep>Gironde</tgv:nom_dep>
+	<tgv:latitude>44.662</tgv:latitude>
+	<tgv:longitude>-1.17</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/47">
+	<tgv:latitude>44.838</tgv:latitude>
+	<tgv:nom_dep>Gironde</tgv:nom_dep>
+	<tgv:insee_dep>33</tgv:insee_dep>
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Bordeaux-Saint-Jean</tgv:name>
+	<tgv:insee_reg>75</tgv:insee_reg>
+	<tgv:nom_reg>Nouvelle-Aquitaine</tgv:nom_reg>
+	<tgv:longitude>-0.57</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/48">
+	<tgv:insee_reg>75</tgv:insee_reg>
+	<tgv:insee_dep>33</tgv:insee_dep>
+	<tgv:nom_reg>Nouvelle-Aquitaine</tgv:nom_reg>
+	<tgv:name>Facture-Biganos</tgv:name>
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:nom_dep>Gironde</tgv:nom_dep>
+	<tgv:latitude>44.65</tgv:latitude>
+	<tgv:longitude>-0.956</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/49">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Libourne</tgv:name>
+	<tgv:insee_reg>75</tgv:insee_reg>
+	<tgv:nom_reg>Nouvelle-Aquitaine</tgv:nom_reg>
+	<tgv:insee_dep>33</tgv:insee_dep>
+	<tgv:nom_dep>Gironde</tgv:nom_dep>
+	<tgv:latitude>44.896</tgv:latitude>
+	<tgv:longitude>-0.24</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/50">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>La Teste</tgv:name>
+	<tgv:insee_reg>75</tgv:insee_reg>
+	<tgv:nom_reg>Nouvelle-Aquitaine</tgv:nom_reg>
+	<tgv:insee_dep>33</tgv:insee_dep>
+	<tgv:nom_dep>Gironde</tgv:nom_dep>
+	<tgv:latitude>44.633</tgv:latitude>
+	<tgv:longitude>-1.133</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/51">
+	<tgv:latitude>43.318</tgv:latitude>
+	<tgv:nom_reg>Occitanie</tgv:nom_reg>
+	<tgv:insee_dep>34</tgv:insee_dep>
+	<tgv:nom_dep>Hérault</tgv:nom_dep>
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Agde</tgv:name>
+	<tgv:insee_reg>76</tgv:insee_reg>
+	<tgv:longitude>3.483</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/52">
+	<tgv:name>Béziers</tgv:name>
+	<tgv:insee_reg>76</tgv:insee_reg>
+	<tgv:insee_dep>34</tgv:insee_dep>
+	<tgv:nom_reg>Occitanie</tgv:nom_reg>
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:nom_dep>Hérault</tgv:nom_dep>
+	<tgv:latitude>43.42</tgv:latitude>
+	<tgv:longitude>3.236</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/53">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Montpellier-Saint-Roch</tgv:name>
+	<tgv:insee_reg>76</tgv:insee_reg>
+	<tgv:nom_reg>Occitanie</tgv:nom_reg>
+	<tgv:insee_dep>34</tgv:insee_dep>
+	<tgv:nom_dep>Hérault</tgv:nom_dep>
+	<tgv:latitude>43.603</tgv:latitude>
+	<tgv:longitude>3.89</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/54">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Montpellier-Sud-de-France</tgv:name>
+	<tgv:insee_reg>76</tgv:insee_reg>
+	<tgv:nom_reg>Occitanie</tgv:nom_reg>
+	<tgv:insee_dep>34</tgv:insee_dep>
+	<tgv:nom_dep>Hérault</tgv:nom_dep>
+	<tgv:latitude>43.595</tgv:latitude>
+	<tgv:longitude>3.924</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/55">
+	<tgv:latitude>43.409</tgv:latitude>
+	<tgv:nom_dep>Hérault</tgv:nom_dep>
+	<tgv:insee_dep>34</tgv:insee_dep>
+	<tgv:insee_reg>76</tgv:insee_reg>
+	<tgv:nom_reg>Occitanie</tgv:nom_reg>
+	<tgv:name>Sète</tgv:name>
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:longitude>3.698</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/56">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>TGV Haute-Picardie</tgv:name>
+	<tgv:insee_reg>76</tgv:insee_reg>
+	<tgv:nom_reg>Occitanie</tgv:nom_reg>
+	<tgv:insee_dep>34</tgv:insee_dep>
+	<tgv:nom_dep>Hérault</tgv:nom_dep>
+	<tgv:latitude>43.394</tgv:latitude>
+	<tgv:longitude>3.68</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/57">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Dol-de-Bretagne</tgv:name>
+	<tgv:insee_reg>53</tgv:insee_reg>
+	<tgv:nom_reg>Bretagne</tgv:nom_reg>
+	<tgv:insee_dep>35</tgv:insee_dep>
+	<tgv:nom_dep>Ille-et-Vilaine</tgv:nom_dep>
+	<tgv:latitude>48.551</tgv:latitude>
+	<tgv:longitude>-1.738</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/58">
+	<tgv:name>Plouaret-Trégor</tgv:name>
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:insee_reg>53</tgv:insee_reg>
+	<tgv:nom_reg>Bretagne</tgv:nom_reg>
+	<tgv:insee_dep>35</tgv:insee_dep>
+	<tgv:nom_dep>Ille-et-Vilaine</tgv:nom_dep>
+	<tgv:latitude>48.035</tgv:latitude>
+	<tgv:longitude>-1.704</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/59">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Redon</tgv:name>
+	<tgv:insee_reg>53</tgv:insee_reg>
+	<tgv:nom_reg>Bretagne</tgv:nom_reg>
+	<tgv:insee_dep>35</tgv:insee_dep>
+	<tgv:nom_dep>Ille-et-Vilaine</tgv:nom_dep>
+	<tgv:latitude>47.652</tgv:latitude>
+	<tgv:longitude>-2.083</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/60">
+	<tgv:insee_reg>53</tgv:insee_reg>
+	<tgv:nom_reg>Bretagne</tgv:nom_reg>
+	<tgv:insee_dep>35</tgv:insee_dep>
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Rennes</tgv:name>
+	<tgv:nom_dep>Ille-et-Vilaine</tgv:nom_dep>
+	<tgv:latitude>48.11</tgv:latitude>
+	<tgv:longitude>-1.684</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/61">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Saint-Malo</tgv:name>
+	<tgv:insee_reg>53</tgv:insee_reg>
+	<tgv:nom_reg>Bretagne</tgv:nom_reg>
+	<tgv:insee_dep>35</tgv:insee_dep>
+	<tgv:nom_dep>Ille-et-Vilaine</tgv:nom_dep>
+	<tgv:latitude>48.657</tgv:latitude>
+	<tgv:longitude>-1.974</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/62">
+	<tgv:name>Vitré</tgv:name>
+	<tgv:insee_reg>53</tgv:insee_reg>
+	<tgv:nom_reg>Bretagne</tgv:nom_reg>
+	<tgv:insee_dep>35</tgv:insee_dep>
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:nom_dep>Ille-et-Vilaine</tgv:nom_dep>
+	<tgv:latitude>48.131</tgv:latitude>
+	<tgv:longitude>-1.218</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/63">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Lorraine TGV</tgv:name>
+	<tgv:insee_reg>24</tgv:insee_reg>
+	<tgv:nom_reg>Centre-Val de Loire</tgv:nom_reg>
+	<tgv:insee_dep>37</tgv:insee_dep>
+	<tgv:nom_dep>Indre-et-Loire</tgv:nom_dep>
+	<tgv:latitude>47.381</tgv:latitude>
+	<tgv:longitude>0.71</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/64">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Saint-Pierre-des-Corps</tgv:name>
+	<tgv:insee_reg>24</tgv:insee_reg>
+	<tgv:nom_reg>Centre-Val de Loire</tgv:nom_reg>
+	<tgv:insee_dep>37</tgv:insee_dep>
+	<tgv:nom_dep>Indre-et-Loire</tgv:nom_dep>
+	<tgv:latitude>47.386</tgv:latitude>
+	<tgv:longitude>0.761</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/65">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Tours</tgv:name>
+	<tgv:insee_reg>24</tgv:insee_reg>
+	<tgv:nom_reg>Centre-Val de Loire</tgv:nom_reg>
+	<tgv:insee_dep>37</tgv:insee_dep>
+	<tgv:nom_dep>Indre-et-Loire</tgv:nom_dep>
+	<tgv:latitude>47.402</tgv:latitude>
+	<tgv:longitude>0.696</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/66">
+	<tgv:latitude>45.177</tgv:latitude>
+	<tgv:insee_dep>38</tgv:insee_dep>
+	<tgv:nom_dep>Isère</tgv:nom_dep>
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:insee_reg>84</tgv:insee_reg>
+	<tgv:name>Grenoble</tgv:name>
+	<tgv:nom_reg>Auvergne-Rhône-Alpes</tgv:nom_reg>
+	<tgv:longitude>5.741</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/67">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Mouchard</tgv:name>
+	<tgv:insee_reg>27</tgv:insee_reg>
+	<tgv:nom_reg>Bourgogne-Franche-Comté</tgv:nom_reg>
+	<tgv:insee_dep>39</tgv:insee_dep>
+	<tgv:nom_dep>Jura</tgv:nom_dep>
+	<tgv:latitude>46.978</tgv:latitude>
+	<tgv:longitude>5.792</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/68">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Dax</tgv:name>
+	<tgv:insee_reg>75</tgv:insee_reg>
+	<tgv:nom_reg>Nouvelle-Aquitaine</tgv:nom_reg>
+	<tgv:insee_dep>40</tgv:insee_dep>
+	<tgv:nom_dep>Landes</tgv:nom_dep>
+	<tgv:latitude>43.709</tgv:latitude>
+	<tgv:longitude>-1.068</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/69">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Vendôme - Villiers-sur-Loir</tgv:name>
+	<tgv:insee_reg>24</tgv:insee_reg>
+	<tgv:latitude>47.799</tgv:latitude>
+	<tgv:nom_reg>Centre-Val de Loire</tgv:nom_reg>
+	<tgv:insee_dep>41</tgv:insee_dep>
+	<tgv:nom_dep>Loir-et-Cher</tgv:nom_dep>
+	<tgv:longitude>1.036</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/70">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Montauban-Ville-Bourbon</tgv:name>
+	<tgv:insee_reg>84</tgv:insee_reg>
+	<tgv:nom_reg>Auvergne-Rhône-Alpes</tgv:nom_reg>
+	<tgv:insee_dep>42</tgv:insee_dep>
+	<tgv:nom_dep>Loire</tgv:nom_dep>
+	<tgv:latitude>45.429</tgv:latitude>
+	<tgv:longitude>4.36</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/71">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Saint-Étienne-Châteaucreux</tgv:name>
+	<tgv:insee_reg>84</tgv:insee_reg>
+	<tgv:nom_reg>Auvergne-Rhône-Alpes</tgv:nom_reg>
+	<tgv:insee_dep>42</tgv:insee_dep>
+	<tgv:nom_dep>Loire</tgv:nom_dep>
+	<tgv:latitude>45.443</tgv:latitude>
+	<tgv:longitude>4.4</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/72">
+	<tgv:insee_reg>52</tgv:insee_reg>
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Ancenis</tgv:name>
+	<tgv:nom_reg>Pays de la Loire</tgv:nom_reg>
+	<tgv:insee_dep>44</tgv:insee_dep>
+	<tgv:nom_dep>Loire-Atlantique</tgv:nom_dep>
+	<tgv:latitude>47.366</tgv:latitude>
+	<tgv:longitude>-1.184</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/73">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>La Baule-Escoublac</tgv:name>
+	<tgv:insee_reg>52</tgv:insee_reg>
+	<tgv:nom_reg>Pays de la Loire</tgv:nom_reg>
+	<tgv:insee_dep>44</tgv:insee_dep>
+	<tgv:nom_dep>Loire-Atlantique</tgv:nom_dep>
+	<tgv:latitude>47.285</tgv:latitude>
+	<tgv:longitude>-2.371</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/74">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Le Croisic</tgv:name>
+	<tgv:insee_reg>52</tgv:insee_reg>
+	<tgv:nom_reg>Pays de la Loire</tgv:nom_reg>
+	<tgv:insee_dep>44</tgv:insee_dep>
+	<tgv:nom_dep>Loire-Atlantique</tgv:nom_dep>
+	<tgv:latitude>47.287</tgv:latitude>
+	<tgv:longitude>-2.51</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/75">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Nantes</tgv:name>
+	<tgv:insee_reg>52</tgv:insee_reg>
+	<tgv:nom_reg>Pays de la Loire</tgv:nom_reg>
+	<tgv:insee_dep>44</tgv:insee_dep>
+	<tgv:nom_dep>Loire-Atlantique</tgv:nom_dep>
+	<tgv:latitude>47.259</tgv:latitude>
+	<tgv:longitude>-1.529</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/76">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Pornichet</tgv:name>
+	<tgv:insee_reg>52</tgv:insee_reg>
+	<tgv:nom_reg>Pays de la Loire</tgv:nom_reg>
+	<tgv:insee_dep>44</tgv:insee_dep>
+	<tgv:nom_dep>Loire-Atlantique</tgv:nom_dep>
+	<tgv:latitude>47.252</tgv:latitude>
+	<tgv:longitude>-2.314</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/77">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Le Pouliguen</tgv:name>
+	<tgv:insee_reg>52</tgv:insee_reg>
+	<tgv:nom_reg>Pays de la Loire</tgv:nom_reg>
+	<tgv:insee_dep>44</tgv:insee_dep>
+	<tgv:nom_dep>Loire-Atlantique</tgv:nom_dep>
+	<tgv:latitude>47.277</tgv:latitude>
+	<tgv:longitude>-2.439</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/78">
+	<tgv:nom_dep>Loire-Atlantique</tgv:nom_dep>
+	<tgv:insee_dep>44</tgv:insee_dep>
+	<tgv:nom_reg>Pays de la Loire</tgv:nom_reg>
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Saint-Nazaire</tgv:name>
+	<tgv:insee_reg>52</tgv:insee_reg>
+	<tgv:latitude>47.299</tgv:latitude>
+	<tgv:longitude>-2.184</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/79">
+	<tgv:name>Agen</tgv:name>
+	<tgv:nom_reg>Nouvelle-Aquitaine</tgv:nom_reg>
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:insee_reg>75</tgv:insee_reg>
+	<tgv:insee_dep>47</tgv:insee_dep>
+	<tgv:nom_dep>Lot-et-Garonne</tgv:nom_dep>
+	<tgv:latitude>44.206</tgv:latitude>
+	<tgv:longitude>0.618</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/80">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Angers-Saint-Laud</tgv:name>
+	<tgv:insee_reg>52</tgv:insee_reg>
+	<tgv:nom_reg>Pays de la Loire</tgv:nom_reg>
+	<tgv:insee_dep>49</tgv:insee_dep>
+	<tgv:nom_dep>Maine-et-Loire</tgv:nom_dep>
+	<tgv:latitude>47.473</tgv:latitude>
+	<tgv:longitude>-0.552</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/81">
+	<tgv:latitude>47.263</tgv:latitude>
+	<tgv:insee_dep>49</tgv:insee_dep>
+	<tgv:nom_dep>Maine-et-Loire</tgv:nom_dep>
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Saumur</tgv:name>
+	<tgv:insee_reg>52</tgv:insee_reg>
+	<tgv:nom_reg>Pays de la Loire</tgv:nom_reg>
+	<tgv:longitude>-0.073</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/82">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Châlons-en-Champagne</tgv:name>
+	<tgv:insee_reg>44</tgv:insee_reg>
+	<tgv:nom_reg>Grand Est</tgv:nom_reg>
+	<tgv:insee_dep>51</tgv:insee_dep>
+	<tgv:nom_dep>Marne</tgv:nom_dep>
+	<tgv:latitude>48.956</tgv:latitude>
+	<tgv:longitude>4.362</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/83">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Reims</tgv:name>
+	<tgv:insee_reg>44</tgv:insee_reg>
+	<tgv:nom_reg>Grand Est</tgv:nom_reg>
+	<tgv:insee_dep>51</tgv:insee_dep>
+	<tgv:nom_dep>Marne</tgv:nom_dep>
+	<tgv:latitude>49.245</tgv:latitude>
+	<tgv:longitude>4.041</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/84">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Vitry-le-François</tgv:name>
+	<tgv:insee_reg>44</tgv:insee_reg>
+	<tgv:nom_reg>Grand Est</tgv:nom_reg>
+	<tgv:insee_dep>51</tgv:insee_dep>
+	<tgv:nom_dep>Marne</tgv:nom_dep>
+	<tgv:latitude>48.73</tgv:latitude>
+	<tgv:longitude>4.597</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/85">
+	<tgv:latitude>48.077</tgv:latitude>
+	<tgv:name>Laval</tgv:name>
+	<tgv:nom_dep>Mayenne</tgv:nom_dep>
+	<tgv:insee_reg>52</tgv:insee_reg>
+	<tgv:insee_dep>53</tgv:insee_dep>
+	<tgv:nom_reg>Pays de la Loire</tgv:nom_reg>
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:longitude>-0.76</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/86">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Lunéville</tgv:name>
+	<tgv:insee_reg>44</tgv:insee_reg>
+	<tgv:nom_reg>Grand Est</tgv:nom_reg>
+	<tgv:insee_dep>54</tgv:insee_dep>
+	<tgv:nom_dep>Meurthe-et-Moselle</tgv:nom_dep>
+	<tgv:latitude>48.585</tgv:latitude>
+	<tgv:longitude>6.483</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/87">
+	<tgv:name>Nancy-Ville</tgv:name>
+	<tgv:insee_reg>44</tgv:insee_reg>
+	<tgv:nom_reg>Grand Est</tgv:nom_reg>
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:insee_dep>54</tgv:insee_dep>
+	<tgv:nom_dep>Meurthe-et-Moselle</tgv:nom_dep>
+	<tgv:latitude>48.703</tgv:latitude>
+	<tgv:longitude>6.224</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/88">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Bar-le-Duc</tgv:name>
+	<tgv:insee_reg>44</tgv:insee_reg>
+	<tgv:nom_reg>Grand Est</tgv:nom_reg>
+	<tgv:insee_dep>55</tgv:insee_dep>
+	<tgv:nom_dep>Meuse</tgv:nom_dep>
+	<tgv:latitude>48.756</tgv:latitude>
+	<tgv:longitude>5.194</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/89">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Auray</tgv:name>
+	<tgv:insee_reg>53</tgv:insee_reg>
+	<tgv:nom_reg>Bretagne</tgv:nom_reg>
+	<tgv:insee_dep>56</tgv:insee_dep>
+	<tgv:nom_dep>Morbihan</tgv:nom_dep>
+	<tgv:latitude>47.663</tgv:latitude>
+	<tgv:longitude>-2.988</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/90">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Lorient</tgv:name>
+	<tgv:insee_reg>53</tgv:insee_reg>
+	<tgv:nom_reg>Bretagne</tgv:nom_reg>
+	<tgv:insee_dep>56</tgv:insee_dep>
+	<tgv:nom_dep>Morbihan</tgv:nom_dep>
+	<tgv:latitude>47.759</tgv:latitude>
+	<tgv:longitude>-3.384</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/91">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Vannes</tgv:name>
+	<tgv:insee_reg>53</tgv:insee_reg>
+	<tgv:nom_reg>Bretagne</tgv:nom_reg>
+	<tgv:insee_dep>56</tgv:insee_dep>
+	<tgv:nom_dep>Morbihan</tgv:nom_dep>
+	<tgv:latitude>47.636</tgv:latitude>
+	<tgv:longitude>-2.773</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/92">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Forbach</tgv:name>
+	<tgv:insee_reg>44</tgv:insee_reg>
+	<tgv:nom_reg>Grand Est</tgv:nom_reg>
+	<tgv:insee_dep>57</tgv:insee_dep>
+	<tgv:nom_dep>Moselle</tgv:nom_dep>
+	<tgv:latitude>49.18</tgv:latitude>
+	<tgv:longitude>6.895</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/93">
+	<tgv:name>Metz-Ville</tgv:name>
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:insee_reg>44</tgv:insee_reg>
+	<tgv:nom_reg>Grand Est</tgv:nom_reg>
+	<tgv:insee_dep>57</tgv:insee_dep>
+	<tgv:nom_dep>Moselle</tgv:nom_dep>
+	<tgv:latitude>49.101</tgv:latitude>
+	<tgv:longitude>6.155</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/94">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Sarrebourg</tgv:name>
+	<tgv:insee_reg>44</tgv:insee_reg>
+	<tgv:nom_reg>Grand Est</tgv:nom_reg>
+	<tgv:insee_dep>57</tgv:insee_dep>
+	<tgv:nom_dep>Moselle</tgv:nom_dep>
+	<tgv:latitude>48.735</tgv:latitude>
+	<tgv:longitude>7.052</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/95">
+	<tgv:name>Thionville</tgv:name>
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:insee_reg>44</tgv:insee_reg>
+	<tgv:nom_reg>Grand Est</tgv:nom_reg>
+	<tgv:insee_dep>57</tgv:insee_dep>
+	<tgv:nom_dep>Moselle</tgv:nom_dep>
+	<tgv:latitude>49.362</tgv:latitude>
+	<tgv:longitude>6.144</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/96">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Croix - Wasquehal</tgv:name>
+	<tgv:insee_reg>32</tgv:insee_reg>
+	<tgv:nom_reg>Hauts-de-France</tgv:nom_reg>
+	<tgv:insee_dep>59</tgv:insee_dep>
+	<tgv:nom_dep>Nord</tgv:nom_dep>
+	<tgv:latitude>50.678</tgv:latitude>
+	<tgv:longitude>3.135</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/97">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Douai</tgv:name>
+	<tgv:insee_reg>32</tgv:insee_reg>
+	<tgv:nom_reg>Hauts-de-France</tgv:nom_reg>
+	<tgv:insee_dep>59</tgv:insee_dep>
+	<tgv:nom_dep>Nord</tgv:nom_dep>
+	<tgv:latitude>50.39</tgv:latitude>
+	<tgv:longitude>3.09</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/98">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Dunkerque</tgv:name>
+	<tgv:insee_reg>32</tgv:insee_reg>
+	<tgv:nom_reg>Hauts-de-France</tgv:nom_reg>
+	<tgv:insee_dep>59</tgv:insee_dep>
+	<tgv:nom_dep>Nord</tgv:nom_dep>
+	<tgv:latitude>51.046</tgv:latitude>
+	<tgv:longitude>2.389</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/99">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Hazebrouck</tgv:name>
+	<tgv:nom_reg>Hauts-de-France</tgv:nom_reg>
+	<tgv:insee_dep>59</tgv:insee_dep>
+	<tgv:insee_reg>32</tgv:insee_reg>
+	<tgv:nom_dep>Nord</tgv:nom_dep>
+	<tgv:latitude>50.738</tgv:latitude>
+	<tgv:longitude>2.726</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/100">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Lille-Europe</tgv:name>
+	<tgv:insee_reg>32</tgv:insee_reg>
+	<tgv:nom_reg>Hauts-de-France</tgv:nom_reg>
+	<tgv:insee_dep>59</tgv:insee_dep>
+	<tgv:nom_dep>Nord</tgv:nom_dep>
+	<tgv:latitude>50.641</tgv:latitude>
+	<tgv:longitude>3.074</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/101">
+	<tgv:insee_reg>32</tgv:insee_reg>
+	<tgv:nom_reg>Hauts-de-France</tgv:nom_reg>
+	<tgv:latitude>50.628</tgv:latitude>
+	<tgv:insee_dep>59</tgv:insee_dep>
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Lille-Flandres</tgv:name>
+	<tgv:nom_dep>Nord</tgv:nom_dep>
+	<tgv:longitude>3.056</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/102">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Roubaix</tgv:name>
+	<tgv:insee_reg>32</tgv:insee_reg>
+	<tgv:nom_reg>Hauts-de-France</tgv:nom_reg>
+	<tgv:insee_dep>59</tgv:insee_dep>
+	<tgv:nom_dep>Nord</tgv:nom_dep>
+	<tgv:latitude>50.701</tgv:latitude>
+	<tgv:longitude>3.17</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/103">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Tourcoing</tgv:name>
+	<tgv:insee_reg>32</tgv:insee_reg>
+	<tgv:nom_reg>Hauts-de-France</tgv:nom_reg>
+	<tgv:insee_dep>59</tgv:insee_dep>
+	<tgv:nom_dep>Nord</tgv:nom_dep>
+	<tgv:latitude>50.718</tgv:latitude>
+	<tgv:longitude>3.141</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/104">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Valenciennes</tgv:name>
+	<tgv:insee_reg>32</tgv:insee_reg>
+	<tgv:nom_reg>Hauts-de-France</tgv:nom_reg>
+	<tgv:insee_dep>59</tgv:insee_dep>
+	<tgv:nom_dep>Nord</tgv:nom_dep>
+	<tgv:latitude>50.342</tgv:latitude>
+	<tgv:longitude>3.517</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/105">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Boulogne-Ville</tgv:name>
+	<tgv:insee_reg>32</tgv:insee_reg>
+	<tgv:nom_reg>Hauts-de-France</tgv:nom_reg>
+	<tgv:insee_dep>60</tgv:insee_dep>
+	<tgv:nom_dep>Oise</tgv:nom_dep>
+	<tgv:latitude>49.607</tgv:latitude>
+	<tgv:longitude>2.707</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/106">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Arras</tgv:name>
+	<tgv:insee_reg>32</tgv:insee_reg>
+	<tgv:nom_reg>Hauts-de-France</tgv:nom_reg>
+	<tgv:insee_dep>62</tgv:insee_dep>
+	<tgv:nom_dep>Pas-de-Calais</tgv:nom_dep>
+	<tgv:latitude>50.29</tgv:latitude>
+	<tgv:longitude>2.778</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/107">
+	<tgv:insee_dep>62</tgv:insee_dep>
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Béthune</tgv:name>
+	<tgv:insee_reg>32</tgv:insee_reg>
+	<tgv:nom_reg>Hauts-de-France</tgv:nom_reg>
+	<tgv:nom_dep>Pas-de-Calais</tgv:nom_dep>
+	<tgv:latitude>50.517</tgv:latitude>
+	<tgv:longitude>2.636</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/108">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Calais - Fréthun</tgv:name>
+	<tgv:insee_reg>32</tgv:insee_reg>
+	<tgv:nom_reg>Hauts-de-France</tgv:nom_reg>
+	<tgv:insee_dep>62</tgv:insee_dep>
+	<tgv:nom_dep>Pas-de-Calais</tgv:nom_dep>
+	<tgv:latitude>50.935</tgv:latitude>
+	<tgv:longitude>1.85</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/109">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Calais-Ville</tgv:name>
+	<tgv:insee_reg>32</tgv:insee_reg>
+	<tgv:nom_reg>Hauts-de-France</tgv:nom_reg>
+	<tgv:insee_dep>62</tgv:insee_dep>
+	<tgv:nom_dep>Pas-de-Calais</tgv:nom_dep>
+	<tgv:latitude>50.43</tgv:latitude>
+	<tgv:longitude>3.063</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/110">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Étaples - Le Touquet</tgv:name>
+	<tgv:insee_reg>32</tgv:insee_reg>
+	<tgv:nom_reg>Hauts-de-France</tgv:nom_reg>
+	<tgv:insee_dep>62</tgv:insee_dep>
+	<tgv:nom_dep>Pas-de-Calais</tgv:nom_dep>
+	<tgv:latitude>50.525</tgv:latitude>
+	<tgv:longitude>1.589</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/111">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Lens</tgv:name>
+	<tgv:insee_reg>32</tgv:insee_reg>
+	<tgv:nom_reg>Hauts-de-France</tgv:nom_reg>
+	<tgv:insee_dep>62</tgv:insee_dep>
+	<tgv:nom_dep>Pas-de-Calais</tgv:nom_dep>
+	<tgv:latitude>50.419</tgv:latitude>
+	<tgv:longitude>3.027</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/112">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Rang-du-Fliers - Verton</tgv:name>
+	<tgv:insee_reg>32</tgv:insee_reg>
+	<tgv:nom_reg>Hauts-de-France</tgv:nom_reg>
+	<tgv:insee_dep>62</tgv:insee_dep>
+	<tgv:nom_dep>Pas-de-Calais</tgv:nom_dep>
+	<tgv:latitude>50.414</tgv:latitude>
+	<tgv:longitude>1.619</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/113">
+	<tgv:name>Bayonne</tgv:name>
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:insee_reg>75</tgv:insee_reg>
+	<tgv:nom_reg>Nouvelle-Aquitaine</tgv:nom_reg>
+	<tgv:insee_dep>64</tgv:insee_dep>
+	<tgv:nom_dep>Pyrénées-Atlantiques</tgv:nom_dep>
+	<tgv:latitude>43.503</tgv:latitude>
+	<tgv:longitude>-1.443</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/114">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Biarritz</tgv:name>
+	<tgv:insee_reg>75</tgv:insee_reg>
+	<tgv:nom_reg>Nouvelle-Aquitaine</tgv:nom_reg>
+	<tgv:insee_dep>64</tgv:insee_dep>
+	<tgv:nom_dep>Pyrénées-Atlantiques</tgv:nom_dep>
+	<tgv:latitude>43.472</tgv:latitude>
+	<tgv:longitude>-1.555</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/115">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Hendaye</tgv:name>
+	<tgv:insee_reg>75</tgv:insee_reg>
+	<tgv:nom_reg>Nouvelle-Aquitaine</tgv:nom_reg>
+	<tgv:insee_dep>64</tgv:insee_dep>
+	<tgv:nom_dep>Pyrénées-Atlantiques</tgv:nom_dep>
+	<tgv:latitude>43.355</tgv:latitude>
+	<tgv:longitude>-1.774</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/116">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Orthez</tgv:name>
+	<tgv:insee_reg>75</tgv:insee_reg>
+	<tgv:nom_reg>Nouvelle-Aquitaine</tgv:nom_reg>
+	<tgv:insee_dep>64</tgv:insee_dep>
+	<tgv:nom_dep>Pyrénées-Atlantiques</tgv:nom_dep>
+	<tgv:latitude>43.491</tgv:latitude>
+	<tgv:longitude>-0.768</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/117">
+	<tgv:insee_reg>75</tgv:insee_reg>
+	<tgv:nom_reg>Nouvelle-Aquitaine</tgv:nom_reg>
+	<tgv:insee_dep>64</tgv:insee_dep>
+	<tgv:latitude>43.295</tgv:latitude>
+	<tgv:nom_dep>Pyrénées-Atlantiques</tgv:nom_dep>
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Pau</tgv:name>
+	<tgv:longitude>-0.35</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/118">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Saint-Jean-de-Luz - Ciboure</tgv:name>
+	<tgv:insee_reg>75</tgv:insee_reg>
+	<tgv:nom_reg>Nouvelle-Aquitaine</tgv:nom_reg>
+	<tgv:insee_dep>64</tgv:insee_dep>
+	<tgv:nom_dep>Pyrénées-Atlantiques</tgv:nom_dep>
+	<tgv:latitude>43.381</tgv:latitude>
+	<tgv:longitude>-1.676</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/119">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Lourdes</tgv:name>
+	<tgv:insee_reg>76</tgv:insee_reg>
+	<tgv:nom_reg>Occitanie</tgv:nom_reg>
+	<tgv:insee_dep>65</tgv:insee_dep>
+	<tgv:nom_dep>Hautes-Pyrénées</tgv:nom_dep>
+	<tgv:latitude>43.095</tgv:latitude>
+	<tgv:longitude>-0.049</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/120">
+	<tgv:insee_dep>65</tgv:insee_dep>
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Tarbes</tgv:name>
+	<tgv:insee_reg>76</tgv:insee_reg>
+	<tgv:nom_reg>Occitanie</tgv:nom_reg>
+	<tgv:nom_dep>Hautes-Pyrénées</tgv:nom_dep>
+	<tgv:latitude>43.232</tgv:latitude>
+	<tgv:longitude>0.071</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/121">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Perpignan</tgv:name>
+	<tgv:insee_reg>76</tgv:insee_reg>
+	<tgv:nom_reg>Occitanie</tgv:nom_reg>
+	<tgv:insee_dep>66</tgv:insee_dep>
+	<tgv:nom_dep>Pyrénées-Orientales</tgv:nom_dep>
+	<tgv:latitude>42.697</tgv:latitude>
+	<tgv:longitude>2.888</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/122">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Saverne</tgv:name>
+	<tgv:insee_reg>44</tgv:insee_reg>
+	<tgv:nom_reg>Grand Est</tgv:nom_reg>
+	<tgv:insee_dep>67</tgv:insee_dep>
+	<tgv:nom_dep>Bas-Rhin</tgv:nom_dep>
+	<tgv:latitude>48.744</tgv:latitude>
+	<tgv:longitude>7.359</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/123">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Sélestat</tgv:name>
+	<tgv:insee_reg>44</tgv:insee_reg>
+	<tgv:nom_reg>Grand Est</tgv:nom_reg>
+	<tgv:insee_dep>67</tgv:insee_dep>
+	<tgv:nom_dep>Bas-Rhin</tgv:nom_dep>
+	<tgv:latitude>48.265</tgv:latitude>
+	<tgv:longitude>7.441</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/124">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Strasbourg-Ville</tgv:name>
+	<tgv:insee_reg>44</tgv:insee_reg>
+	<tgv:nom_reg>Grand Est</tgv:nom_reg>
+	<tgv:insee_dep>67</tgv:insee_dep>
+	<tgv:nom_dep>Bas-Rhin</tgv:nom_dep>
+	<tgv:latitude>48.561</tgv:latitude>
+	<tgv:longitude>7.76</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/125">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Colmar</tgv:name>
+	<tgv:insee_reg>44</tgv:insee_reg>
+	<tgv:nom_reg>Grand Est</tgv:nom_reg>
+	<tgv:insee_dep>68</tgv:insee_dep>
+	<tgv:nom_dep>Haut-Rhin</tgv:nom_dep>
+	<tgv:latitude>48.077</tgv:latitude>
+	<tgv:longitude>7.361</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/126">
+	<tgv:latitude>47.746</tgv:latitude>
+	<tgv:longitude>7.34</tgv:longitude>
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Mulhouse-Ville</tgv:name>
+	<tgv:insee_reg>44</tgv:insee_reg>
+	<tgv:nom_reg>Grand Est</tgv:nom_reg>
+	<tgv:insee_dep>68</tgv:insee_dep>
+	<tgv:nom_dep>Haut-Rhin</tgv:nom_dep>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/127">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Besançon Franche-Comté TGV</tgv:name>
+	<tgv:insee_reg>84</tgv:insee_reg>
+	<tgv:nom_reg>Auvergne-Rhône-Alpes</tgv:nom_reg>
+	<tgv:insee_dep>69</tgv:insee_dep>
+	<tgv:nom_dep>Rhône</tgv:nom_dep>
+	<tgv:latitude>45.985</tgv:latitude>
+	<tgv:longitude>4.706</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/128">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Lyon-Part-Dieu</tgv:name>
+	<tgv:insee_reg>84</tgv:insee_reg>
+	<tgv:nom_reg>Auvergne-Rhône-Alpes</tgv:nom_reg>
+	<tgv:insee_dep>69</tgv:insee_dep>
+	<tgv:nom_dep>Rhône</tgv:nom_dep>
+	<tgv:latitude>45.759</tgv:latitude>
+	<tgv:longitude>4.841</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/129">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Lyon-Perrache</tgv:name>
+	<tgv:insee_reg>84</tgv:insee_reg>
+	<tgv:nom_reg>Auvergne-Rhône-Alpes</tgv:nom_reg>
+	<tgv:insee_dep>69</tgv:insee_dep>
+	<tgv:nom_dep>Rhône</tgv:nom_dep>
+	<tgv:latitude>45.749</tgv:latitude>
+	<tgv:longitude>4.828</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/130">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Lyon-Saint-Exupéry TGV</tgv:name>
+	<tgv:insee_reg>84</tgv:insee_reg>
+	<tgv:nom_reg>Auvergne-Rhône-Alpes</tgv:nom_reg>
+	<tgv:insee_dep>69</tgv:insee_dep>
+	<tgv:nom_dep>Rhône</tgv:nom_dep>
+	<tgv:latitude>45.758</tgv:latitude>
+	<tgv:longitude>4.828</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/131">
+	<tgv:nom_reg>Auvergne-Rhône-Alpes</tgv:nom_reg>
+	<tgv:insee_reg>84</tgv:insee_reg>
+	<tgv:name>Marne-la-Vallée - Chessy</tgv:name>
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:insee_dep>69</tgv:insee_dep>
+	<tgv:nom_dep>Rhône</tgv:nom_dep>
+	<tgv:latitude>45.888</tgv:latitude>
+	<tgv:longitude>4.621</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/132">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Paris-Gare-de-Lyon</tgv:name>
+	<tgv:insee_reg>84</tgv:insee_reg>
+	<tgv:nom_reg>Auvergne-Rhône-Alpes</tgv:nom_reg>
+	<tgv:insee_dep>69</tgv:insee_dep>
+	<tgv:nom_dep>Rhône</tgv:nom_dep>
+	<tgv:latitude>45.78</tgv:latitude>
+	<tgv:longitude>4.804</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/133">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Dole-Ville</tgv:name>
+	<tgv:insee_reg>27</tgv:insee_reg>
+	<tgv:nom_reg>Bourgogne-Franche-Comté</tgv:nom_reg>
+	<tgv:insee_dep>70</tgv:insee_dep>
+	<tgv:nom_dep>Haute-Saône</tgv:nom_dep>
+	<tgv:latitude>47.439</tgv:latitude>
+	<tgv:longitude>5.589</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/134">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Chalon-sur-Saône</tgv:name>
+	<tgv:insee_reg>27</tgv:insee_reg>
+	<tgv:nom_reg>Bourgogne-Franche-Comté</tgv:nom_reg>
+	<tgv:insee_dep>71</tgv:insee_dep>
+	<tgv:nom_dep>Saône-et-Loire</tgv:nom_dep>
+	<tgv:latitude>46.789</tgv:latitude>
+	<tgv:longitude>4.841</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/135">
+	<tgv:insee_reg>27</tgv:insee_reg>
+	<tgv:name>Le Creusot - Montceau - Montchanin</tgv:name>
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:nom_reg>Bourgogne-Franche-Comté</tgv:nom_reg>
+	<tgv:insee_dep>71</tgv:insee_dep>
+	<tgv:nom_dep>Saône-et-Loire</tgv:nom_dep>
+	<tgv:latitude>46.669</tgv:latitude>
+	<tgv:longitude>4.377</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/136">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Mâcon-Loché TGV</tgv:name>
+	<tgv:insee_reg>27</tgv:insee_reg>
+	<tgv:nom_reg>Bourgogne-Franche-Comté</tgv:nom_reg>
+	<tgv:insee_dep>71</tgv:insee_dep>
+	<tgv:nom_dep>Saône-et-Loire</tgv:nom_dep>
+	<tgv:latitude>46.277</tgv:latitude>
+	<tgv:longitude>4.784</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/137">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Le Mans</tgv:name>
+	<tgv:insee_reg>52</tgv:insee_reg>
+	<tgv:nom_reg>Pays de la Loire</tgv:nom_reg>
+	<tgv:insee_dep>72</tgv:insee_dep>
+	<tgv:nom_dep>Sarthe</tgv:nom_dep>
+	<tgv:latitude>47.999</tgv:latitude>
+	<tgv:longitude>0.192</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/138">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Sablé-sur-Sarthe</tgv:name>
+	<tgv:insee_reg>52</tgv:insee_reg>
+	<tgv:nom_reg>Pays de la Loire</tgv:nom_reg>
+	<tgv:insee_dep>72</tgv:insee_dep>
+	<tgv:nom_dep>Sarthe</tgv:nom_dep>
+	<tgv:latitude>47.837</tgv:latitude>
+	<tgv:longitude>-0.329</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/139">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Aime-La Plagne</tgv:name>
+	<tgv:insee_reg>84</tgv:insee_reg>
+	<tgv:nom_reg>Auvergne-Rhône-Alpes</tgv:nom_reg>
+	<tgv:insee_dep>73</tgv:insee_dep>
+	<tgv:nom_dep>Savoie</tgv:nom_dep>
+	<tgv:latitude>45.573</tgv:latitude>
+	<tgv:longitude>6.606</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/140">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Aix-les-Bains-Le Revard</tgv:name>
+	<tgv:insee_reg>84</tgv:insee_reg>
+	<tgv:nom_reg>Auvergne-Rhône-Alpes</tgv:nom_reg>
+	<tgv:insee_dep>73</tgv:insee_dep>
+	<tgv:nom_dep>Savoie</tgv:nom_dep>
+	<tgv:latitude>45.69</tgv:latitude>
+	<tgv:longitude>5.919</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/141">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Albertville</tgv:name>
+	<tgv:insee_reg>84</tgv:insee_reg>
+	<tgv:nom_reg>Auvergne-Rhône-Alpes</tgv:nom_reg>
+	<tgv:insee_dep>73</tgv:insee_dep>
+	<tgv:nom_dep>Savoie</tgv:nom_dep>
+	<tgv:latitude>45.659</tgv:latitude>
+	<tgv:longitude>6.384</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/142">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Bourg-Saint-Maurice</tgv:name>
+	<tgv:insee_reg>84</tgv:insee_reg>
+	<tgv:nom_reg>Auvergne-Rhône-Alpes</tgv:nom_reg>
+	<tgv:insee_dep>73</tgv:insee_dep>
+	<tgv:nom_dep>Savoie</tgv:nom_dep>
+	<tgv:latitude>45.573</tgv:latitude>
+	<tgv:longitude>6.828</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/143">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Chambéry - Challes-les-Eaux</tgv:name>
+	<tgv:insee_reg>84</tgv:insee_reg>
+	<tgv:nom_reg>Auvergne-Rhône-Alpes</tgv:nom_reg>
+	<tgv:insee_dep>73</tgv:insee_dep>
+	<tgv:nom_dep>Savoie</tgv:nom_dep>
+	<tgv:latitude>45.559</tgv:latitude>
+	<tgv:longitude>5.975</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/144">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Landry</tgv:name>
+	<tgv:insee_reg>84</tgv:insee_reg>
+	<tgv:nom_reg>Auvergne-Rhône-Alpes</tgv:nom_reg>
+	<tgv:insee_dep>73</tgv:insee_dep>
+	<tgv:nom_dep>Savoie</tgv:nom_dep>
+	<tgv:latitude>45.576</tgv:latitude>
+	<tgv:longitude>6.736</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/145">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Modane</tgv:name>
+	<tgv:insee_reg>84</tgv:insee_reg>
+	<tgv:nom_reg>Auvergne-Rhône-Alpes</tgv:nom_reg>
+	<tgv:insee_dep>73</tgv:insee_dep>
+	<tgv:nom_dep>Savoie</tgv:nom_dep>
+	<tgv:latitude>45.201</tgv:latitude>
+	<tgv:longitude>6.671</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/146">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Moûtiers - Salins - Brides-les-Bains</tgv:name>
+	<tgv:insee_reg>84</tgv:insee_reg>
+	<tgv:nom_reg>Auvergne-Rhône-Alpes</tgv:nom_reg>
+	<tgv:insee_dep>73</tgv:insee_dep>
+	<tgv:nom_dep>Savoie</tgv:nom_dep>
+	<tgv:latitude>45.452</tgv:latitude>
+	<tgv:longitude>6.567</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/147">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Saint-Avre - La Chambre</tgv:name>
+	<tgv:insee_reg>84</tgv:insee_reg>
+	<tgv:nom_reg>Auvergne-Rhône-Alpes</tgv:nom_reg>
+	<tgv:insee_dep>73</tgv:insee_dep>
+	<tgv:nom_dep>Savoie</tgv:nom_dep>
+	<tgv:latitude>45.356</tgv:latitude>
+	<tgv:longitude>6.304</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/148">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Saint-Jean-de-Maurienne - Vallée de l'Arvan</tgv:name>
+	<tgv:insee_reg>84</tgv:insee_reg>
+	<tgv:nom_reg>Auvergne-Rhône-Alpes</tgv:nom_reg>
+	<tgv:insee_dep>73</tgv:insee_dep>
+	<tgv:nom_dep>Savoie</tgv:nom_dep>
+	<tgv:latitude>45.272</tgv:latitude>
+	<tgv:longitude>6.352</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/149">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Annecy</tgv:name>
+	<tgv:insee_reg>84</tgv:insee_reg>
+	<tgv:nom_reg>Auvergne-Rhône-Alpes</tgv:nom_reg>
+	<tgv:insee_dep>74</tgv:insee_dep>
+	<tgv:nom_dep>Haute-Savoie</tgv:nom_dep>
+	<tgv:latitude>45.898</tgv:latitude>
+	<tgv:longitude>6.119</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/150">
+	<tgv:longitude>6.242</tgv:longitude>
+	<tgv:insee_reg>84</tgv:insee_reg>
+	<tgv:nom_reg>Auvergne-Rhône-Alpes</tgv:nom_reg>
+	<tgv:name>Annemasse</tgv:name>
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:latitude>46.185</tgv:latitude>
+	<tgv:nom_dep>Haute-Savoie</tgv:nom_dep>
+	<tgv:insee_dep>74</tgv:insee_dep>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/151">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Évian-les-Bains</tgv:name>
+	<tgv:insee_reg>84</tgv:insee_reg>
+	<tgv:nom_reg>Auvergne-Rhône-Alpes</tgv:nom_reg>
+	<tgv:insee_dep>74</tgv:insee_dep>
+	<tgv:nom_dep>Haute-Savoie</tgv:nom_dep>
+	<tgv:latitude>46.398</tgv:latitude>
+	<tgv:longitude>6.602</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/152">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Saint-Gervais-les-Bains-Le Fayet</tgv:name>
+	<tgv:insee_reg>84</tgv:insee_reg>
+	<tgv:nom_reg>Auvergne-Rhône-Alpes</tgv:nom_reg>
+	<tgv:insee_dep>74</tgv:insee_dep>
+	<tgv:nom_dep>Haute-Savoie</tgv:nom_dep>
+	<tgv:latitude>45.868</tgv:latitude>
+	<tgv:longitude>6.682</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/153">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Sallanches - Combloux - Megève</tgv:name>
+	<tgv:insee_reg>84</tgv:insee_reg>
+	<tgv:nom_reg>Auvergne-Rhône-Alpes</tgv:nom_reg>
+	<tgv:insee_dep>74</tgv:insee_dep>
+	<tgv:nom_dep>Haute-Savoie</tgv:nom_dep>
+	<tgv:latitude>45.901</tgv:latitude>
+	<tgv:longitude>6.643</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/154">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Thonon-les-Bains</tgv:name>
+	<tgv:insee_reg>84</tgv:insee_reg>
+	<tgv:nom_reg>Auvergne-Rhône-Alpes</tgv:nom_reg>
+	<tgv:insee_dep>74</tgv:insee_dep>
+	<tgv:nom_dep>Haute-Savoie</tgv:nom_dep>
+	<tgv:latitude>46.374</tgv:latitude>
+	<tgv:longitude>6.485</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/155">
+	<tgv:name>Paris-Est</tgv:name>
+	<tgv:insee_reg>11</tgv:insee_reg>
+	<tgv:nom_reg>Île-de-France</tgv:nom_reg>
+	<tgv:insee_dep>75</tgv:insee_dep>
+	<tgv:latitude>48.871</tgv:latitude>
+	<tgv:nom_dep>Paris</tgv:nom_dep>
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:longitude>2.395</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/156">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Paris-Montparnasse</tgv:name>
+	<tgv:insee_reg>11</tgv:insee_reg>
+	<tgv:nom_reg>Île-de-France</tgv:nom_reg>
+	<tgv:insee_dep>75</tgv:insee_dep>
+	<tgv:nom_dep>Paris</tgv:nom_dep>
+	<tgv:latitude>48.838</tgv:latitude>
+	<tgv:longitude>2.317</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/157">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Paris-Nord</tgv:name>
+	<tgv:insee_reg>11</tgv:insee_reg>
+	<tgv:nom_reg>Île-de-France</tgv:nom_reg>
+	<tgv:insee_dep>75</tgv:insee_dep>
+	<tgv:nom_dep>Paris</tgv:nom_dep>
+	<tgv:latitude>48.881</tgv:latitude>
+	<tgv:longitude>2.356</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/158">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Le Havre</tgv:name>
+	<tgv:insee_reg>28</tgv:insee_reg>
+	<tgv:nom_reg>Normandie</tgv:nom_reg>
+	<tgv:insee_dep>76</tgv:insee_dep>
+	<tgv:nom_dep>Seine-Maritime</tgv:nom_dep>
+	<tgv:latitude>49.505</tgv:latitude>
+	<tgv:longitude>0.174</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/159">
+	<tgv:latitude>49.006</tgv:latitude>
+	<tgv:insee_dep>77</tgv:insee_dep>
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Aéroport Charles-de-Gaulle TGV</tgv:name>
+	<tgv:insee_reg>11</tgv:insee_reg>
+	<tgv:nom_reg>Île-de-France</tgv:nom_reg>
+	<tgv:nom_dep>Seine-et-Marne</tgv:nom_dep>
+	<tgv:longitude>2.571</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/160">
+	<tgv:nom_dep>Yvelines</tgv:nom_dep>
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Mantes-la-Jolie</tgv:name>
+	<tgv:insee_reg>11</tgv:insee_reg>
+	<tgv:nom_reg>Île-de-France</tgv:nom_reg>
+	<tgv:insee_dep>78</tgv:insee_dep>
+	<tgv:latitude>48.994</tgv:latitude>
+	<tgv:longitude>1.721</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/161">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Versailles-Chantiers</tgv:name>
+	<tgv:insee_reg>11</tgv:insee_reg>
+	<tgv:nom_reg>Île-de-France</tgv:nom_reg>
+	<tgv:insee_dep>78</tgv:insee_dep>
+	<tgv:nom_dep>Yvelines</tgv:nom_dep>
+	<tgv:latitude>48.797</tgv:latitude>
+	<tgv:longitude>2.136</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/162">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Niort</tgv:name>
+	<tgv:insee_reg>75</tgv:insee_reg>
+	<tgv:nom_reg>Nouvelle-Aquitaine</tgv:nom_reg>
+	<tgv:insee_dep>79</tgv:insee_dep>
+	<tgv:nom_dep>Deux-Sèvres</tgv:nom_dep>
+	<tgv:latitude>46.319</tgv:latitude>
+	<tgv:longitude>-0.458</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/163">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Saint-Maixent (Deux-Sèvres)</tgv:name>
+	<tgv:insee_reg>75</tgv:insee_reg>
+	<tgv:nom_reg>Nouvelle-Aquitaine</tgv:nom_reg>
+	<tgv:insee_dep>79</tgv:insee_dep>
+	<tgv:nom_dep>Deux-Sèvres</tgv:nom_dep>
+	<tgv:latitude>46.409</tgv:latitude>
+	<tgv:longitude>-0.205</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/164">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Amiens</tgv:name>
+	<tgv:insee_reg>32</tgv:insee_reg>
+	<tgv:nom_reg>Hauts-de-France</tgv:nom_reg>
+	<tgv:insee_dep>80</tgv:insee_dep>
+	<tgv:nom_dep>Somme</tgv:nom_dep>
+	<tgv:latitude>49.9</tgv:latitude>
+	<tgv:longitude>2.289</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/165">
+	<tgv:nom_reg>Provence-Alpes-Côte d'Azur</tgv:nom_reg>
+	<tgv:insee_reg>93</tgv:insee_reg>
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Les Arcs - Draguignan</tgv:name>
+	<tgv:insee_dep>83</tgv:insee_dep>
+	<tgv:nom_dep>Var</tgv:nom_dep>
+	<tgv:latitude>43.504</tgv:latitude>
+	<tgv:longitude>6.483</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/166">
+	<tgv:insee_reg>93</tgv:insee_reg>
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Hyères</tgv:name>
+	<tgv:nom_reg>Provence-Alpes-Côte d'Azur</tgv:nom_reg>
+	<tgv:insee_dep>83</tgv:insee_dep>
+	<tgv:nom_dep>Var</tgv:nom_dep>
+	<tgv:latitude>43.09</tgv:latitude>
+	<tgv:longitude>6.123</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/167">
+	<tgv:nom_dep>Var</tgv:nom_dep>
+	<tgv:insee_dep>83</tgv:insee_dep>
+	<tgv:nom_reg>Provence-Alpes-Côte d'Azur</tgv:nom_reg>
+	<tgv:insee_reg>93</tgv:insee_reg>
+	<tgv:name>Saint-Raphaël-Valescure</tgv:name>
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:latitude>43.441</tgv:latitude>
+	<tgv:longitude>6.776</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/168">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Toulon</tgv:name>
+	<tgv:insee_reg>93</tgv:insee_reg>
+	<tgv:nom_reg>Provence-Alpes-Côte d'Azur</tgv:nom_reg>
+	<tgv:insee_dep>83</tgv:insee_dep>
+	<tgv:nom_dep>Var</tgv:nom_dep>
+	<tgv:latitude>43.133</tgv:latitude>
+	<tgv:longitude>5.964</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/169">
+	<tgv:insee_reg>93</tgv:insee_reg>
+	<tgv:nom_reg>Provence-Alpes-Côte d'Azur</tgv:nom_reg>
+	<tgv:insee_dep>84</tgv:insee_dep>
+	<tgv:nom_dep>Vaucluse</tgv:nom_dep>
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Avignon-Centre</tgv:name>
+	<tgv:latitude>44.046</tgv:latitude>
+	<tgv:longitude>5.031</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/170">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Orange</tgv:name>
+	<tgv:insee_reg>93</tgv:insee_reg>
+	<tgv:nom_reg>Provence-Alpes-Côte d'Azur</tgv:nom_reg>
+	<tgv:insee_dep>84</tgv:insee_dep>
+	<tgv:nom_dep>Vaucluse</tgv:nom_dep>
+	<tgv:latitude>44.14</tgv:latitude>
+	<tgv:longitude>4.812</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/171">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>La Roche-sur-Yon</tgv:name>
+	<tgv:insee_reg>52</tgv:insee_reg>
+	<tgv:nom_reg>Pays de la Loire</tgv:nom_reg>
+	<tgv:insee_dep>85</tgv:insee_dep>
+	<tgv:nom_dep>Vendée</tgv:nom_dep>
+	<tgv:latitude>46.67</tgv:latitude>
+	<tgv:longitude>-1.432</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/172">
+	<tgv:insee_dep>85</tgv:insee_dep>
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Les Sables-d'Olonne</tgv:name>
+	<tgv:insee_reg>52</tgv:insee_reg>
+	<tgv:nom_reg>Pays de la Loire</tgv:nom_reg>
+	<tgv:nom_dep>Vendée</tgv:nom_dep>
+	<tgv:latitude>46.479</tgv:latitude>
+	<tgv:longitude>-1.758</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/173">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Châtellerault</tgv:name>
+	<tgv:insee_reg>75</tgv:insee_reg>
+	<tgv:nom_reg>Nouvelle-Aquitaine</tgv:nom_reg>
+	<tgv:insee_dep>86</tgv:insee_dep>
+	<tgv:nom_dep>Vienne</tgv:nom_dep>
+	<tgv:latitude>46.796</tgv:latitude>
+	<tgv:longitude>0.525</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/174">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Futuroscope</tgv:name>
+	<tgv:insee_reg>75</tgv:insee_reg>
+	<tgv:nom_reg>Nouvelle-Aquitaine</tgv:nom_reg>
+	<tgv:insee_dep>86</tgv:insee_dep>
+	<tgv:nom_dep>Vienne</tgv:nom_dep>
+	<tgv:latitude>46.659</tgv:latitude>
+	<tgv:longitude>0.362</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/175">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Poitiers</tgv:name>
+	<tgv:insee_reg>75</tgv:insee_reg>
+	<tgv:nom_reg>Nouvelle-Aquitaine</tgv:nom_reg>
+	<tgv:insee_dep>86</tgv:insee_dep>
+	<tgv:nom_dep>Vienne</tgv:nom_dep>
+	<tgv:latitude>46.579</tgv:latitude>
+	<tgv:longitude>0.335</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/176">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:insee_reg>44</tgv:insee_reg>
+	<tgv:name>Épinal</tgv:name>
+	<tgv:nom_reg>Grand Est</tgv:nom_reg>
+	<tgv:insee_dep>88</tgv:insee_dep>
+	<tgv:nom_dep>Vosges</tgv:nom_dep>
+	<tgv:latitude>48.175</tgv:latitude>
+	<tgv:longitude>6.45</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/177">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Remiremont</tgv:name>
+	<tgv:insee_reg>44</tgv:insee_reg>
+	<tgv:nom_reg>Grand Est</tgv:nom_reg>
+	<tgv:insee_dep>88</tgv:insee_dep>
+	<tgv:nom_dep>Vosges</tgv:nom_dep>
+	<tgv:latitude>48.006</tgv:latitude>
+	<tgv:longitude>6.604</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/178">
+	<tgv:nom_dep>Vosges</tgv:nom_dep>
+	<tgv:insee_dep>88</tgv:insee_dep>
+	<tgv:insee_reg>44</tgv:insee_reg>
+	<tgv:name>Saint-Dié-des-Vosges</tgv:name>
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:nom_reg>Grand Est</tgv:nom_reg>
+	<tgv:latitude>48.293</tgv:latitude>
+	<tgv:longitude>6.962</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/179">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Saint-Michel - Valloire</tgv:name>
+	<tgv:insee_reg>44</tgv:insee_reg>
+	<tgv:nom_reg>Grand Est</tgv:nom_reg>
+	<tgv:insee_dep>88</tgv:insee_dep>
+	<tgv:nom_dep>Vosges</tgv:nom_dep>
+	<tgv:latitude>48.157</tgv:latitude>
+	<tgv:longitude>6.134</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/180">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Belfort - Montbéliard TGV</tgv:name>
+	<tgv:insee_reg>27</tgv:insee_reg>
+	<tgv:nom_reg>Bourgogne-Franche-Comté</tgv:nom_reg>
+	<tgv:insee_dep>90</tgv:insee_dep>
+	<tgv:nom_dep>Territoire de Belfort</tgv:nom_dep>
+	<tgv:latitude>47.637</tgv:latitude>
+	<tgv:longitude>6.858</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/181">
+	<tgv:latitude>48.731</tgv:latitude>
+	<tgv:insee_reg>11</tgv:insee_reg>
+	<tgv:nom_dep>Essonne</tgv:nom_dep>
+	<tgv:insee_dep>91</tgv:insee_dep>
+	<tgv:nom_reg>Île-de-France</tgv:nom_reg>
+	<tgv:name>Massy - Palaiseau</tgv:name>
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:longitude>2.243</tgv:longitude>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/182">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#gareTGV"/>
+	<tgv:name>Massy TGV</tgv:name>
+	<tgv:insee_reg>11</tgv:insee_reg>
+	<tgv:nom_reg>Île-de-France</tgv:nom_reg>
+	<tgv:insee_dep>91</tgv:insee_dep>
+	<tgv:nom_dep>Essonne</tgv:nom_dep>
+	<tgv:latitude>48.736</tgv:latitude>
+	<tgv:longitude>2.291</tgv:longitude>
+</rdf:Description>
+
+</rdf:RDF>
