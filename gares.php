@@ -5,7 +5,7 @@ session_start();
 <html lang="fr">
 <head>
     <meta charset="utf-8" http-equiv="Cache-control" content="no-cache">
-    <title>Distance</title>
+    <title>Web Semantic</title>
     <!--Made with love by Mutiullah Samim -->
 
     <!--Bootsrap 4 CDN-->
@@ -67,7 +67,7 @@ session_start();
             <div class="col-md-6 maps" id = "map" > </div>
             <!--<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11880.492291371422!2d12.4922309!3d41.8902102!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x28f1c82e908503c4!2sColosseo!5e0!3m2!1sit!2sit!4v1524815927977" frameborder="0" style="border:0" allowfullscreen></iframe>-->
             <script type = "text/javascript">
-                var map = L.map('map').setView([48.8566969, 2.3514616], 11);
+                var map = L.map('map').setView([48.8566969, 2.3514616], 5);
                 var file_path = "";
                 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
                     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
@@ -75,11 +75,31 @@ session_start();
 
                 var markerLayer = L.layerGroup().addTo(map);
 
+                var innerHTML = "";
+                if (navigator.geolocation) {
+                    navigator.geolocation.getCurrentPosition(showPosition);
+                } else {
+                    innerHTML = "Geolocation is not supported by this browser.";
+                }
+                function showPosition(position) {
+                    innerHTML = "Latitude: " + position.coords.latitude +
+                        "<br>Longitude: " + position.coords.longitude;
+                    console.log(innerHTML);
+                    var markeract =  L.marker([position.coords.latitude, position.coords.longitude]);
+                    markeract.addTo(map)
+                        .bindPopup("Votre position actuelle")
+                        .openPopup();
+                    markeract.on('click', function(ev){
+                        var latlng = map.mouseEventToLatLng(ev.originalEvent);
+                        console.log(latlng.lat + ', ' + latlng.lng);
+                    });
+                }
+
 
             </script>
 
             <div class="col-md-6">
-                <h2 class="text-uppercase mt-3 font-weight-bold text-white">DISTANCE</h2>
+                <h2 class="text-uppercase mt-3 font-weight-bold text-white">WEB SEMANTIC</h2>
 
                 <h3 class="text-uppercase mt-4 font-weight-bold text-white"></h3>
                 <p>Bonjour ! Veuillez choisir un filtre a appliquer</p>
@@ -93,7 +113,7 @@ session_start();
                             </label>
                         </div>
                         <div class="form-check">
-                            <input class="form-check-input" type="radio" name="choice" id="xname">
+                            <input class="form-check-input" type="radio" name="choice" id="depname">
                             <label class="form-check-label" for="flexRadioDefault2">
                                 Afficher les gares dans le département (nom)
                             </label>
@@ -104,7 +124,7 @@ session_start();
                             </div>
                         </div>
                         <div class="form-check">
-                            <input class="form-check-input" type="radio" name="choice" id="xnum" >
+                            <input class="form-check-input" type="radio" name="choice" id="depnum" >
                             <label class="form-check-label" for="flexRadioDefault2">
                                 Afficher les gares dans le département (numéro) :
                             </label>
@@ -129,9 +149,11 @@ session_start();
                         <div class="col-12">
                             <button class="btn btn-light" type="submit">Envoyer</button>
                         </div>
-                    </div>
+
                     <br>
-                        <br>
+                    <link rel="stylesheet" type="text/css" href="css/style_loader.css">
+                    <div style = "display:none;" id = "loader" name= "loader" class="loader"></div>
+                    <br>
                 </form>
 
                 <form role = "form" name ="clean" id = "clean" autocomplete="off" method = "GET">
@@ -139,6 +161,7 @@ session_start();
                         <button class="btn btn-light" id = "clear" name  ="clear" type="submit">Nettoyer</button>
                     </div>
                 </form>
+            </div>
 
 
                 <script>
@@ -158,8 +181,8 @@ session_start();
                             var input_name_dep = document.getElementById("nom_dep");
                             var input_num_dep = document.getElementById("num_dep");
                             var input_region = document.getElementById("region");
-                            if (checked == "xname") {
-                                console.log("xname");
+                            if (checked == "depname") {
+                                console.log("depname");
                                 $("#nom_dep").prop('disabled',false);
 
                                 $("#num_dep").prop('disabled',true);
@@ -168,8 +191,8 @@ session_start();
                                 $("#region_in").prop('disabled',true);
                                 $("#region_in").prop('value','');
                             }
-                            else if (checked == "xnum") {
-                                console.log("xnum");
+                            else if (checked == "depnum") {
+                                console.log("depnum");
                                 $("#nom_dep").prop('disabled',true);
                                 $("#nom_dep").prop('value','');
 
@@ -209,6 +232,7 @@ session_start();
                         // process the form
                         $('#distance').submit(function(event) {
                             event.preventDefault();
+                            $("#loader").show();
                             markerLayer.clearLayers();
                             // get the form data
                             // there are many ways to get this data using jQuery (you can use the class or id also)
@@ -225,9 +249,9 @@ session_start();
                                 }
                             }
                             var param = "";
-                            if (checked == "xname")
+                            if (checked == "depname")
                                 param = document.getElementsByName('nom_dep')[0].value;
-                            else if (checked == "xnum")
+                            else if (checked == "depnum")
                                 param = document.getElementsByName('num_dep')[0].value;
                             else if (checked == "region")
                                 param = document.getElementsByName('region_in')[0].value;
@@ -250,6 +274,7 @@ session_start();
                                 // using the done promise callback
                                 .done(function(data) {
                                     //alert("ok");
+                                    $("#loader").hide();
                                     var json_data = JSON.parse(data);
                                     //console.log(json_data);
 
@@ -258,8 +283,16 @@ session_start();
                                         var name = point.name;
                                         var latitude = point.latitude;
                                         var longitude = point.longitude;
-                                        L.marker([latitude, longitude]).addTo(markerLayer)
+
+                                        var marker = L.marker([latitude, longitude]);
+                                        marker.addTo(markerLayer)
                                             .bindPopup(name)
+                                            .openPopup();
+                                        marker.on('click', function(ev){
+                                            var latlng = map.mouseEventToLatLng(ev.originalEvent);
+                                            console.log(latlng.lat + ', ' + latlng.lng);
+                                        });
+
                                     }
 
                                     // here we will handle errors and validation messages

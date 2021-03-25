@@ -1,6 +1,6 @@
 <?php
 
-error_reporting(0);
+error_reporting(1);
 function ConvertToUTF8($text){
 
     $encoding = mb_detect_encoding($text, mb_detect_order(), false);
@@ -29,12 +29,17 @@ if(isset($_GET['choice']) && isset($_GET['type'])) {
         $param = $_GET['param'];
     //$type = "VELIB";
 
-
-    exec("python WebSemantics_JENA.py $type $choix $param",$output);
+    //echo $type." ".$choix." ".$param;
+   // echo $param;
+    if ($param != "")
+        $command = 'python3 WebSemantics_JENA.py '.$type.' '.  $choix .' "'. $param.'"';
+    else
+        $command = 'python3 WebSemantics_JENA.py '.$type.' '.  $choix;
+    //echo $command;
+    exec($command,$output);
     //var_dump($output);
 
     $retour = array();
-    $i = 0;
     for ($i = 0; $i < count($output);$i+=3) {
         $point = array();
         $string= $output[$i];
