@@ -180,7 +180,7 @@ session_start();
                 <div class="form-check">
                     <input class="form-check-input" type="radio" name="choice" id="path" >
                     <label class="form-check-label" for="flexRadioDefault2">
-                        Afficher l'itinéraire entre votre position actuelle et une station vélib (cliquez dessus puis envoyer)
+                        Afficher l'itinéraire entre votre position actuelle et une station vélib (cliquez sur un point puis envoyer)
                     </label>
                 </div>
                 <div class="col-12">

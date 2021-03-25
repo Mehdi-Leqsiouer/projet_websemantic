@@ -31,18 +31,17 @@ g2.parse("TGV.rdf")
 
 num = 5
 
-qres = g.query(
+qres = g2.query(
     """SELECT *
 WHERE {
-    ?station vel:name ?name ;
-             vel:latitude ?lat ;
-             vel:longitude ?long ;
-             vel:is_returning "OUI" ;
+    ?station tgv:name "Perpignan" ;
+             tgv:latitude ?lat ;
+             tgv:longitude ?long ; ;
 }""")
 
 
 for row in qres:
-     print(str(row.asdict()['name'].toPython()))
+     #print(str(row.asdict()['name'].toPython()))
      #print(str(row.asdict()['installed'].toPython()))
      print(str(row.asdict()['lat'].toPython()))
      print(str(row.asdict()['long'].toPython()))
