@@ -70,6 +70,7 @@ session_start();
 		 <script type = "text/javascript">
 
 		 var map = L.map('map').setView([48.8566969, 2.3514616], 11);
+		 var pos;
          /*var southWest = L.latLng(48.211230450191465, 1.1580276489257815),
              northEast = L.latLng(49.117248, 3.4),
              bounds = L.latLngBounds(southWest, northEast);
@@ -98,6 +99,7 @@ session_start();
              innerHTML = "Latitude: " + position.coords.latitude +
                  "<br>Longitude: " + position.coords.longitude;
              console.log(innerHTML);
+             pos = position;
              var markeract =  L.marker([position.coords.latitude, position.coords.longitude]);
              markeract.addTo(map)
                  .bindPopup("Votre position actuelle")
@@ -174,6 +176,13 @@ session_start();
                         Afficher les stations ou le retour n'est PAS disponible
                     </label>
                 </div>
+
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="choice" id="path" >
+                    <label class="form-check-label" for="flexRadioDefault2">
+                        Afficher l'itinéraire entre votre position actuelle et une station vélib (cliquez dessus puis envoyer)
+                    </label>
+                </div>
                 <div class="col-12">
                     <button class="btn btn-light" type="submit">Envoyer</button>
                 </div>
@@ -224,14 +233,14 @@ session_start();
 
           <script>
               $(document).ready(function() {
-
+                  var latlng_clicked;
                   // process the form
                   $('#distance').submit(function(event) {
                       event.preventDefault();
 
                       $("#loader").show();
 
-                      markerLayer.clearLayers();
+
                       // get the form data
                       // there are many ways to get this data using jQuery (you can use the class or id also)
                       //console.log(values);
@@ -252,48 +261,82 @@ session_start();
                       if (checked== "allX")
                           param = document.getElementsByName('nb_velo')[0].value;
 
+                      if (checked !="path") {
+                          markerLayer.clearLayers();
 
-                      var formData = {
-                          'choice'              : checked,
-                          'type'                : 'VELIB',
-                          'param'               :param
-                      };
-                      console.log(formData);
-                      // process the form
-                      $.ajax({
-                          type        : 'GET', // define the type of HTTP verb we want to use (POST for our form)
-                          url         : 'get_rdf.php', // the url where we want to POST
-                          data        : formData,
-                          processData: true // our data object
-                      })
-                          // using the done promise callback
-                          .done(function(data) {
-                              //alert("ok");
-                              $("#loader").hide();
-                              var json_data = JSON.parse(data);
-                              //console.log(json_data);
+                          var formData = {
+                              'choice': checked,
+                              'type': 'VELIB',
+                              'param': param
+                          };
+                          console.log(formData);
+                          // process the form
+                          $.ajax({
+                              type: 'GET', // define the type of HTTP verb we want to use (POST for our form)
+                              url: 'get_rdf.php', // the url where we want to POST
+                              data: formData,
+                              processData: true // our data object
+                          })
+                              // using the done promise callback
+                              .done(function (data) {
+                                  //alert("ok");
+                                  $("#loader").hide();
+                                  var json_data = JSON.parse(data);
+                                  //console.log(json_data);
 
-                              for(var i = 0; i < json_data.length;i++) {
-                                  var point = json_data[i];
-                                  var name = point.name;
-                                  var latitude = point.latitude;
-                                  var longitude = point.longitude;
+                                  for (var i = 0; i < json_data.length; i++) {
+                                      var point = json_data[i];
+                                      var name = point.name;
+                                      var latitude = point.latitude;
+                                      var longitude = point.longitude;
 
-                                  var marker = L.marker([latitude, longitude]);
-                                  marker.addTo(markerLayer)
-                                      .bindPopup(name)
-                                      .openPopup();
-                                  marker.on('click', function(ev){
-                                      var latlng = map.mouseEventToLatLng(ev.originalEvent);
-                                      console.log(latlng.lat + ', ' + latlng.lng);
-                                  });
-                              }
+                                      var marker = L.marker([latitude, longitude]);
+                                      marker.addTo(markerLayer)
+                                          .bindPopup(name)
+                                          .openPopup();
+                                      marker.on('click', function (ev) {
+                                          latlng_clicked = map.mouseEventToLatLng(ev.originalEvent);
+                                          console.log(latlng_clicked.lat + ', ' + latlng_clicked.lng);
+                                      });
+                                  }
 
-                              // here we will handle errors and validation messages
-                          }).fail(function() {
-                          alert("erreur");
-                      })
-                      ;
+                                  // here we will handle errors and validation messages
+                              }).fail(function () {
+                              alert("erreur");
+                          });
+                      }
+
+                      else {
+                          var coords = {"latitude":pos.coords.latitude,"longitude":pos.coords.longitude};
+                          var arriver = {"latitude":latlng_clicked.lat,"longitude":latlng_clicked.lng};
+
+                          var formData = {
+                              'depart_lat': coords.latitude,
+                              'depart_long' : coords.longitude,
+                              'arriver_lat': arriver.latitude,
+                              'arriver_long': arriver.longitude
+                          };
+                          console.log(formData);
+                          // process the form
+                          $.ajax({
+                              type: 'GET', // define the type of HTTP verb we want to use (POST for our form)
+                              url: 'get_Path.php', // the url where we want to POST
+                                  data: formData,
+                              processData: true // our data object
+                          })
+                              // using the done promise callback
+                              .done(function (data) {
+                                  //alert("ok");
+                                  $("#loader").hide();
+                                  var json_data = JSON.parse(data);
+                                  console.log(json_data);
+                                  var geojsonLayer = new L.GeoJSON.AJAX("path.geojson");
+                                  geojsonLayer.addTo(markerLayer);
+                                  // here we will handle errors and validation messages
+                              }).fail(function () {
+                              alert("erreur");
+                          });
+                      }
 
                       // stop the form from submitting the normal way and refreshing the page
 
