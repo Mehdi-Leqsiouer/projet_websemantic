@@ -89,6 +89,8 @@ session_start();
 
          var markerLayer = L.layerGroup().addTo(map);
 
+         var itineraireLayer = L.layerGroup().addTo(map);
+
          var innerHTML = "";
          if (navigator.geolocation) {
              navigator.geolocation.getCurrentPosition(showPosition);
@@ -114,7 +116,7 @@ session_start();
 		 </script>
 
       <div class="col-md-6">
-        <h2 class="text-uppercase mt-3 font-weight-bold text-white">Web Semantic</h2>
+        <h2 class="text-uppercase mt-3 font-weight-bold text-white">Web Semantics</h2>
 		
 		<h3 class="text-uppercase mt-4 font-weight-bold text-white"></h3>
           <p>Bonjour ! Veuillez choisir un filtre a appliquer</p>
@@ -263,6 +265,7 @@ session_start();
 
                       if (checked !="path") {
                           markerLayer.clearLayers();
+                          itineraireLayer.clearLayers();
 
                           var formData = {
                               'choice': checked,
@@ -307,35 +310,44 @@ session_start();
                       }
 
                       else {
-                          var coords = {"latitude":pos.coords.latitude,"longitude":pos.coords.longitude};
-                          var arriver = {"latitude":latlng_clicked.lat,"longitude":latlng_clicked.lng};
+                          var coords = {"latitude": pos.coords.latitude, "longitude": pos.coords.longitude};
 
-                          var formData = {
-                              'depart_lat': coords.latitude,
-                              'depart_long' : coords.longitude,
-                              'arriver_lat': arriver.latitude,
-                              'arriver_long': arriver.longitude
-                          };
-                          console.log(formData);
-                          // process the form
-                          $.ajax({
-                              type: 'GET', // define the type of HTTP verb we want to use (POST for our form)
-                              url: 'get_Path.php', // the url where we want to POST
+                          if (latlng_clicked == null) {
+                              alert("Vous devez cliquez sur un point (indice : afficher des stations d'abord)");
+                              $("#loader").hide();
+                          }
+                          else {
+                              itineraireLayer.clearLayers();
+                              var arriver = {"latitude": latlng_clicked.lat, "longitude": latlng_clicked.lng};
+
+
+                              var formData = {
+                                  'depart_lat': coords.latitude,
+                                  'depart_long': coords.longitude,
+                                  'arriver_lat': arriver.latitude,
+                                  'arriver_long': arriver.longitude
+                              };
+                              console.log(formData);
+                              // process the form
+                              $.ajax({
+                                  type: 'GET', // define the type of HTTP verb we want to use (POST for our form)
+                                  url: 'get_Path.php', // the url where we want to POST
                                   data: formData,
-                              processData: true // our data object
-                          })
-                              // using the done promise callback
-                              .done(function (data) {
-                                  //alert("ok");
-                                  $("#loader").hide();
-                                  var json_data = JSON.parse(data);
-                                  console.log(json_data);
-                                  var geojsonLayer = new L.GeoJSON.AJAX("path.geojson");
-                                  geojsonLayer.addTo(markerLayer);
-                                  // here we will handle errors and validation messages
-                              }).fail(function () {
-                              alert("erreur");
-                          });
+                                  processData: true // our data object
+                              })
+                                  // using the done promise callback
+                                  .done(function (data) {
+                                      //alert("ok");
+                                      $("#loader").hide();
+                                      var json_data = JSON.parse(data);
+                                      console.log(json_data);
+                                      var geojsonLayer = new L.GeoJSON.AJAX("path.geojson");
+                                      geojsonLayer.addTo(itineraireLayer);
+                                      // here we will handle errors and validation messages
+                                  }).fail(function () {
+                                  alert("erreur");
+                              });
+                          }
                       }
 
                       // stop the form from submitting the normal way and refreshing the page
@@ -354,6 +366,7 @@ session_start();
                       event.preventDefault();
 
                       markerLayer.clearLayers();
+                      itineraireLayer.clearLayers();
                       // stop the form from submitting the normal way and refreshing the page
                       event.preventDefault();
                   });

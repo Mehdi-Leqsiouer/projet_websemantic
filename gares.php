@@ -99,7 +99,7 @@ session_start();
             </script>
 
             <div class="col-md-6">
-                <h2 class="text-uppercase mt-3 font-weight-bold text-white">WEB SEMANTIC</h2>
+                <h2 class="text-uppercase mt-3 font-weight-bold text-white">Web Semantics</h2>
 
                 <h3 class="text-uppercase mt-4 font-weight-bold text-white"></h3>
                 <p>Bonjour ! Veuillez choisir un filtre a appliquer</p>

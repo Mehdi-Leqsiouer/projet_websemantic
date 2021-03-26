@@ -1,7 +1,0 @@
-SELECT ?name ?latitude ?longitude
-            WHERE {
-                    ?station vel:is_returning "NON" .
-                    ?station vel:name ?name .
-                    ?station vel:latitude ?latitude .
-                    ?station vel:longitude ?longitude                    
-                    }
