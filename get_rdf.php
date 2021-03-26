@@ -1,6 +1,6 @@
 <?php
 
-error_reporting(1);
+error_reporting(0);
 function ConvertToUTF8($text){
 
     $encoding = mb_detect_encoding($text, mb_detect_order(), false);

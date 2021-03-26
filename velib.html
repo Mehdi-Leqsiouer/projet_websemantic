@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html xml:lang="fr" lang="fr"
+      prefix="az: http://w3id.org/people/az/ dblp: http://dblp.uni-trier.de/rdf/schema# dbo: http://dbpedia.org/ontology/ dbr: http://dbpedia.org/resource/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ owl: http://www.w3.org/2002/07/owl# rdfs: http://www.w3.org/2000/01/rdf-schema# swc: http://data.semanticweb.org/ns/swc/ontology# viaf: http://viaf.org/viaf/ xsd: http://www.w3.org/2001/XMLSchema#">
+<head>
+<meta charset="utf-8" http-equiv="Cache-control" content="no-cache">
+        <title property="foaf:title">Web Semantics</title>
+   <!--Made with love by Mutiullah Samim -->
+   
+	<!--Bootsrap 4 CDN-->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    
+    <!--Fontawesome CDN-->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+	<!--Custom styles-->
+	<link rel="stylesheet" type="text/css" href="css/styles2.css">
+
+    <link rel="stylesheet" type="text/css" href="css/styles3.css">
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top" id="banner">
+        <div class="container">
+            <!-- Brand -->
+
+            <!-- Toggler/collapsibe Button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a property="rdfs:label" class="nav-link" href="velib.html"><b>Velib</b></a>
+                    </li>
+                    <li class="nav-item">
+                        <a property="rdfs:label" class="nav-link" href="gares.html">Gares</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+</head>
+
+<body>
+
+<div class="row" id="contatti">
+<div class="container mt-5" >
+    <br>
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+  integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+  crossorigin=""/>
+<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+  integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+  crossorigin=""></script>
+  
+  <script src="js/leaflet.ajax.min.js"> </script>
+  
+    <div class="row" style="height:575px;">
+      <div property="foaf:Document" class="col-md-6 maps" id = "map" > </div>
+         <!--<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11880.492291371422!2d12.4922309!3d41.8902102!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x28f1c82e908503c4!2sColosseo!5e0!3m2!1sit!2sit!4v1524815927977" frameborder="0" style="border:0" allowfullscreen></iframe>-->
+
+		 <script type = "text/javascript">
+
+		 var map = L.map('map').setView([48.8566969, 2.3514616], 11);
+		 var pos;
+         var poiIcon = L.Icon.extend({
+             options: {
+                 iconSize: [20, 26],
+                 iconAnchor: [10, 26],
+                 popupAnchor: [0, -26]
+             }
+         });
+         var icon = new poiIcon({ iconUrl: 'images/' + 'velib' + '.png' });
+         /*var southWest = L.latLng(48.211230450191465, 1.1580276489257815),
+             northEast = L.latLng(49.117248, 3.4),
+             bounds = L.latLngBounds(southWest, northEast);
+
+         let map = L.map('map', {
+             zoomSnap: 0.25,
+             zoomControl: false,
+             renderer: L.canvas(),
+         }).setView([48.849467486075945, 2.331689757953717], 12, { animation: true })
+             .setMaxBounds(bounds);*/
+
+         var file_path = "";
+		L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+			attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+		}).addTo(map);
+
+         var markerLayer = L.layerGroup().addTo(map);
+
+         var itineraireLayer = L.layerGroup().addTo(map);
+
+         var innerHTML = "";
+         if (navigator.geolocation) {
+             navigator.geolocation.getCurrentPosition(showPosition);
+         } else {
+             innerHTML = "Geolocation is not supported by this browser.";
+         }
+         function showPosition(position) {
+             innerHTML = "Latitude: " + position.coords.latitude +
+                 "<br>Longitude: " + position.coords.longitude;
+             console.log(innerHTML);
+             pos = position;
+             var markeract =  L.marker([position.coords.latitude, position.coords.longitude]);
+             markeract.addTo(map)
+                 .bindPopup("Votre position actuelle")
+                 .openPopup();
+             markeract.on('click', function(ev){
+                 var latlng = map.mouseEventToLatLng(ev.originalEvent);
+                 console.log(latlng.lat + ', ' + latlng.lng);
+             });
+         }
+
+		 </script>
+
+      <div class="col-md-6">
+        <h2 property="foaf:title" class="text-uppercase mt-3 font-weight-bold text-white">Web Semantics</h2>
+          <h2 property="foaf:title" class="text-uppercase mt-3 font-weight-bold text-white">Projet réalisé par <span property="foaf:firstName">Mehdi </span><span property="foaf:lastName">Leqsiouer</span> <span property="foaf:firstName">Mounir </span><span property="foaf:lastName">Hammouti</span>
+              <span property="foaf:firstName">Morgan </span><span property="foaf:lastName">Leblond</span></h2>
+		
+		<h3 class="text-uppercase mt-4 font-weight-bold text-white"></h3>
+          <p property="rdfs:comment">Bonjour ! Veuillez choisir un filtre a appliquer</p>
+		
+        <form role = "form" name ="distance" id = "distance" autocomplete="off" method = "GET" >
+            <div class="row">
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="choice" id="all" checked>
+                    <label property="rdfs:label" class="form-check-label" for="all">
+                        Afficher toutes les stations velibs (limiter à 100)
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="choice" id="allX">
+                    <label property="rdfs:label" class="form-check-label" for="allX">
+                        Afficher les stations avec nombres de vélibs disponibles supérieurs à :
+                    </label>
+                </div>
+                <div class="col-lg-6">
+                    <div class="form-check">
+                        <input type="number" name="nb_velo" id="nb_velo" placeholder = "Nombre de vélos" disabled>
+                    </div>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="choice" id="elec">
+                    <label property="rdfs:label" class="form-check-label" for="elec">
+                        Afficher les stations SANS vélos electriques
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="choice" id="meca" >
+                    <label property="rdfs:label" class="form-check-label" for="meca">
+                        Afficher les stations SANS vélos mécaniques
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="choice" id="disp" >
+                    <label property="rdfs:label" class="form-check-label" for="disp">
+                        Afficher les stations SANS vélos disponibles
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="choice" id="fonc" >
+                    <label property="rdfs:label" class="form-check-label" for="fonc">
+                        Afficher les stations désactivées
+                    </label>
+                </div>
+
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="choice" id="borne" >
+                    <label property="rdfs:label" class="form-check-label" for="borne">
+                        Afficher les stations SANS des bornes de paiements
+                    </label>
+                </div>
+
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="choice" id="retour" >
+                    <label property="rdfs:label" class="form-check-label" for="retour">
+                        Afficher les stations ou le retour n'est PAS disponible
+                    </label>
+                </div>
+
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="choice" id="path" >
+                    <label property="rdfs:label" class="form-check-label" for="path">
+                        Afficher l'itinéraire entre votre position actuelle et une station vélib (cliquez sur un point puis envoyer)
+                    </label>
+                </div>
+                <div class="col-12">
+                    <button property="rdfs:label" class="btn btn-light" type="submit">Envoyer</button>
+                </div>
+
+        <br>
+            <link rel="stylesheet" type="text/css" href="css/style_loader.css">
+            <div property="foaf:img" style = "display:none;" id = "loader" name= "loader" class="loader"></div>
+            <br>
+            </div>
+        </form>
+
+
+
+          <script>
+              $(document).ready(function() {
+                  $("input[type='radio']").click(function (e) {
+                      var radios = document.getElementsByName('choice');
+                      var checked = "";
+                      for (var i = 0, length = radios.length; i < length; i++) {
+                          if (radios[i].checked) {
+                              // do whatever you want with the checked radio
+                              //alert(radios[i].value);
+                              checked = radios[i].id;
+                              // only one radio can be logically checked, don't check the rest
+                              break;
+                          }
+                      }
+                      if (checked == "allX") {
+                          console.log("allX");
+                          $("#nb_velo").prop('disabled',false);
+
+                      }
+                      else {
+                          $("#nb_velo").prop('disabled',true);
+                          $("#nb_velo").prop('value','');
+
+                      }
+                  });
+
+              });
+          </script>
+
+
+          <form role = "form" name ="clean" id = "clean" autocomplete="off" method = "GET">
+          <div class="col-12">
+              <button property="rdfs:label" class="btn btn-light" id = "clear" name  ="clear" type="submit">Nettoyer</button>
+          </div>
+          </form>
+      </div>
+
+          <script>
+              $(document).ready(function() {
+                  var latlng_clicked;
+                  // process the form
+                  $('#distance').submit(function(event) {
+                      event.preventDefault();
+
+                      $("#loader").show();
+
+
+                      // get the form data
+                      // there are many ways to get this data using jQuery (you can use the class or id also)
+                      //console.log(values);
+                      var radios = document.getElementsByName('choice');
+                      var checked = "";
+                      for (var i = 0, length = radios.length; i < length; i++) {
+                          if (radios[i].checked) {
+                              // do whatever you want with the checked radio
+                              //alert(radios[i].value);
+                              checked = radios[i].id;
+                              // only one radio can be logically checked, don't check the rest
+                              break;
+                          }
+                      }
+                      console.log(checked);
+
+                      var param = "";
+                      if (checked== "allX")
+                          param = document.getElementsByName('nb_velo')[0].value;
+
+                      if (checked !="path") {
+                          markerLayer.clearLayers();
+                          itineraireLayer.clearLayers();
+
+                          var formData = {
+                              'choice': checked,
+                              'type': 'VELIB',
+                              'param': param
+                          };
+                          console.log(formData);
+                          // process the form
+                          $.ajax({
+                              type: 'GET', // define the type of HTTP verb we want to use (POST for our form)
+                              url: 'get_rdf.php', // the url where we want to POST
+                              data: formData,
+                              processData: true // our data object
+                          })
+                              // using the done promise callback
+                              .done(function (data) {
+                                  //alert("ok");
+                                  $("#loader").hide();
+                                  var json_data = JSON.parse(data);
+                                  //console.log(json_data);
+
+                                  for (var i = 0; i < json_data.length; i++) {
+                                      var point = json_data[i];
+                                      var name = point.name;
+                                      var latitude = point.latitude;
+                                      var longitude = point.longitude;
+
+                                      var marker = L.marker([latitude, longitude], { icon: icon });
+
+                                      marker.addTo(markerLayer)
+                                          .bindPopup(name);
+
+                                      marker.on('click', function (ev) {
+                                          latlng_clicked = map.mouseEventToLatLng(ev.originalEvent);
+                                          console.log(latlng_clicked.lat + ', ' + latlng_clicked.lng);
+                                      })
+                                      /*
+                                      var marker = L.marker([latitude, longitude]);
+                                      marker.addTo(markerLayer)
+                                          .bindPopup(name)
+                                          .openPopup();
+                                      marker.on('click', function (ev) {
+                                          latlng_clicked = map.mouseEventToLatLng(ev.originalEvent);
+                                          console.log(latlng_clicked.lat + ', ' + latlng_clicked.lng);
+                                      });*/
+                                  }
+
+                                  // here we will handle errors and validation messages
+                              }).fail(function () {
+                              alert("erreur");
+                          });
+                      }
+
+                      else {
+                          var coords = {"latitude": pos.coords.latitude, "longitude": pos.coords.longitude};
+
+                          if (latlng_clicked == null) {
+                              alert("Vous devez cliquez sur un point (indice : afficher des stations d'abord)");
+                              $("#loader").hide();
+                          }
+                          else {
+                              itineraireLayer.clearLayers();
+                              var arriver = {"latitude": latlng_clicked.lat, "longitude": latlng_clicked.lng};
+
+
+                              var formData = {
+                                  'depart_lat': coords.latitude,
+                                  'depart_long': coords.longitude,
+                                  'arriver_lat': arriver.latitude,
+                                  'arriver_long': arriver.longitude
+                              };
+                              console.log(formData);
+                              // process the form
+                              $.ajax({
+                                  type: 'GET', // define the type of HTTP verb we want to use (POST for our form)
+                                  url: 'get_Path.php', // the url where we want to POST
+                                  data: formData,
+                                  processData: true // our data object
+                              })
+                                  // using the done promise callback
+                                  .done(function (data) {
+                                      //alert("ok");
+                                      $("#loader").hide();
+                                      var json_data = JSON.parse(data);
+                                      console.log(json_data);
+                                      var geojsonLayer = new L.GeoJSON.AJAX("path.geojson");
+                                      geojsonLayer.addTo(itineraireLayer);
+                                      // here we will handle errors and validation messages
+                                  }).fail(function () {
+                                  alert("erreur");
+                              });
+                          }
+                      }
+
+                      // stop the form from submitting the normal way and refreshing the page
+
+                     event.preventDefault();
+                  });
+
+              });
+          </script>
+
+          <script>
+              $(document).ready(function() {
+
+                  // process the form
+                  $('#clean').submit(function(event) {
+                      event.preventDefault();
+
+                      markerLayer.clearLayers();
+                      itineraireLayer.clearLayers();
+                      // stop the form from submitting the normal way and refreshing the page
+                      event.preventDefault();
+                  });
+
+              });
+          </script>
+
+
+    </div>
+</div>
+
+</div>
+
+<!--
+<div class="row text-center bg-success text-white" id="author">
+  <div class="col-12 mt-4 h3 ">
+      test !!
+</div>
+<div class="col-12 my-2">
+
+</div>
+
+
+</div>-->
+
+</body>
+
+    <!--Bottom Footer-->
+
+    <!--Bottom Footer-->
+
+</html>
