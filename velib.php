@@ -71,6 +71,14 @@ session_start();
 
 		 var map = L.map('map').setView([48.8566969, 2.3514616], 11);
 		 var pos;
+         var poiIcon = L.Icon.extend({
+             options: {
+                 iconSize: [20, 26],
+                 iconAnchor: [10, 26],
+                 popupAnchor: [0, -26]
+             }
+         });
+         var icon = new poiIcon({ iconUrl: 'images/' + 'velib' + '.png' });
          /*var southWest = L.latLng(48.211230450191465, 1.1580276489257815),
              northEast = L.latLng(49.117248, 3.4),
              bounds = L.latLngBounds(southWest, northEast);
@@ -293,6 +301,16 @@ session_start();
                                       var latitude = point.latitude;
                                       var longitude = point.longitude;
 
+                                      var marker = L.marker([latitude, longitude], { icon: icon });
+
+                                      marker.addTo(markerLayer)
+                                          .bindPopup(name);
+
+                                      marker.on('click', function (ev) {
+                                          latlng_clicked = map.mouseEventToLatLng(ev.originalEvent);
+                                          console.log(latlng_clicked.lat + ', ' + latlng_clicked.lng);
+                                      })
+                                      /*
                                       var marker = L.marker([latitude, longitude]);
                                       marker.addTo(markerLayer)
                                           .bindPopup(name)
@@ -300,7 +318,7 @@ session_start();
                                       marker.on('click', function (ev) {
                                           latlng_clicked = map.mouseEventToLatLng(ev.originalEvent);
                                           console.log(latlng_clicked.lat + ', ' + latlng_clicked.lng);
-                                      });
+                                      });*/
                                   }
 
                                   // here we will handle errors and validation messages

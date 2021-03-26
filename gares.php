@@ -73,6 +73,16 @@ session_start();
                     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
                 }).addTo(map);
 
+
+                var poiIcon = L.Icon.extend({
+                    options: {
+                        iconSize: [20, 26],
+                        iconAnchor: [10, 26],
+                        popupAnchor: [0, -26]
+                    }
+                });
+                var icon = new poiIcon({ iconUrl: 'images/' + 'gare' + '.png' });
+
                 var markerLayer = L.layerGroup().addTo(map);
 
                 var innerHTML = "";
@@ -284,14 +294,25 @@ session_start();
                                         var latitude = point.latitude;
                                         var longitude = point.longitude;
 
-                                        var marker = L.marker([latitude, longitude]);
+
+                                        var marker = L.marker([latitude, longitude], { icon: icon });
+
+                                        marker.addTo(markerLayer)
+                                            .bindPopup(name);
+
+                                        marker.on('click', function (ev) {
+                                            latlng_clicked = map.mouseEventToLatLng(ev.originalEvent);
+                                            console.log(latlng_clicked.lat + ', ' + latlng_clicked.lng);
+                                        })
+
+                                       /* var marker = L.marker([latitude, longitude]);
                                         marker.addTo(markerLayer)
                                             .bindPopup(name)
                                             .openPopup();
                                         marker.on('click', function(ev){
                                             var latlng = map.mouseEventToLatLng(ev.originalEvent);
                                             console.log(latlng.lat + ', ' + latlng.lng);
-                                        });
+                                        });*/
 
                                     }
 
